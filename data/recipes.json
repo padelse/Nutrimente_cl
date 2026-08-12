@@ -1,205 +1,1226 @@
-{
-  "_comment": "Base de datos de recetas. Para añadir una receta nueva, copia un bloque {...}, dale un 'id' único (sin espacios, en minúsculas, con guiones) y rellena los campos. 'categoria' debe ser una de: almuerzo-entrante, almuerzo-principal, cena-entrante, cena-principal.",
-  "recipes": [
-    {
-      "id": "salmorejo-remolacha",
-      "nombre": "Salmorejo de remolacha",
-      "categoria": "almuerzo-entrante",
-      "semana": "Semana 1",
-      "ingredientes": ["Tomate", "Remolacha", "Pimiento", "Pepinos", "Aceite de oliva virgen extra", "Vinagre de manzana", "Comino molido"],
-      "elaboracion": "Tenemos dos opciones: comprar la remolacha ya cocida y envasada al vacío (ver ingredientes: remolacha exclusivamente, y no azúcar; no sirve la opción de remolacha en bote rallada porque siempre lleva azúcar añadido), o comprarla cruda.\n\nPara hervir remolacha: refriega suavemente la superficie de la cáscara con un trapo para quitar el exceso de tierra, o enjuágala con agua. Corta la raíz y mete la remolacha en una olla con agua hirviendo y sal durante unos 30 minutos. Deja enfriar antes de servir.\n\nA tener en cuenta: si son muy grandes, son más fibrosas y tardan más en ponerse tiernas; es recomendable optar por las pequeñas. Al conservarlas, separa las hojas del bulbo, ya que las hojas absorben el agua del bulbo y las remolachas se deshidratan, modificando su aspecto y sabor.\n\nUna vez listas, incorpora por persona: 1 remolacha grande o 2 pequeñitas, 1/3 de pimiento y 1/3 de pepino en el vaso de la batidora, condimenta y deja el aceite para el último momento. Bate enérgicamente y, cuando esté todo triturado, ve incorporando el aceite poco a poco sin dejar de batir (así emulsionará y quedará más cremoso). Conserva en la nevera hasta servir muy frío."
-    },
-    {
-      "id": "ensalada-garbanzos-feta-aceitunas",
-      "nombre": "Ensalada de garbanzos con feta y aceitunas",
-      "categoria": "almuerzo-principal",
-      "semana": "Semana 1",
-      "ingredientes": ["Garbanzos cocidos (conserva)", "Queso Feta", "Cebolleta", "Rúcula", "Tomate cherry", "Aceite de oliva virgen extra", "Aceitunas negras", "Zanahorias"],
-      "elaboracion": "Si usas garbanzos de bote, escúrrelos y enjuágalos bajo el grifo. Corta el tomate en dados, pica las aceitunas y la cebolleta. Colócalo todo en una ensaladera y añade los garbanzos cocidos.\n\nIncorpora el queso feta cortado en dados pequeños. Aderézalo con el zumo de limón, un buen chorro de aceite, sal y perejil o cilantro picado al gusto. Deja en la nevera hasta el momento de servir.\n\nNota: si te apetece, también puedes añadir zanahoria, aguacate o rúcula."
-    },
-    {
-      "id": "alino-tomates-oregano",
-      "nombre": "Aliño de tomates con orégano",
-      "categoria": "cena-entrante",
-      "semana": "Semana 1",
-      "ingredientes": ["Tomate", "Aceite de oliva virgen extra", "Orégano"],
-      "elaboracion": "Lava muy bien los tomates y trocéalos (escoge variedades diferentes para ir probando distintos sabores y texturas, como raf, kumato, rosa, azul...). La mezcla de hierbas aromáticas combina muy bien con el pescado azul. Condimenta al gusto."
-    },
-    {
-      "id": "tostas-revuelto-bacalao",
-      "nombre": "Tostas con revuelto de bacalao",
-      "categoria": "cena-principal",
-      "semana": "Semana 1",
-      "ingredientes": ["Pan 100% integral con masa madre", "Huevo", "Bacalao desalado", "Aceite de oliva virgen extra", "Perejil"],
-      "elaboracion": "En una cazuela pon el bacalao desalado y cúbrelo con un poco de agua. Calienta a fuego muy fuerte y, justo antes de que comience a hervir, apaga el fuego y deja que el bacalao repose en el agua alrededor de 10 minutos. Pasado este tiempo, escurre el agua del bacalao y resérvalo.\n\nEn una sartén caliente con un chorreoncito de aceite, añade el bacalao, saltéalo por si tiene algo más de agua que soltar y a continuación añade los huevos. No busques hacer una tortilla rota, sino un revuelto de bacalao cremoso. Cocina 1 minuto. Salpimenta y añade un pequeño chorrito de aceite, que le dará el toque definitivo. Mezcla un poco para integrar todos los ingredientes y ponlo en un plato.\n\nSi al añadirlo cae lentamente, estará en su punto; si cae en bloque, te has pasado del punto de cocción; si cae demasiado rápido, estará crudo — busca el punto intermedio. Esparce un poco de perejil picado por encima y sirve inmediatamente.\n\nPresentación: coloca este revuelto sobre rebanadas de pan tostado justo en el momento de servir."
-    },
-    {
-      "id": "alino-patatas-caballa",
-      "nombre": "Aliño de patatas con caballa fresca",
-      "categoria": "almuerzo-principal",
-      "semana": "Semana 1",
-      "ingredientes": ["Caballa fresca", "Patatas", "Tomate", "Pimiento", "Cebollas", "Aceite de oliva virgen extra", "Vinagre de manzana", "Tomillo"],
-      "elaboracion": "Pide en la pescadería que te quiten la cabeza, la cola y las vísceras de la caballa (si tiene huevas, déjalas dentro). En casa, lava el pescado y ponlo en una ollita con agua hirviendo que cubra casi el pescado; añade una hoja de laurel, un trozo de cebolla, un chorreón de aceite de oliva y algo de sal, y cuece unos 12-15 min según tamaño. Cuando veas que por la cola se despega, estará listo. Quita los lomos y con cuidado retira las espinas del medio (con la yema de los dedos se palpan mejor). Pásalas un poco por agua para quitar impurezas y ponlas en una bandeja.\n\nPatatas: pon las patatas en una olla y cúbrelas con agua; añade una cucharadita de vinagre y otra de sal. El agua debe cubrir al menos 3-4 dedos por encima de las patatas. Ponlas a fuego máximo y, cuando comience a hervir, baja a fuego medio; mantén la cocción durante 30 minutos a temperatura constante y no muy alta. Cuando pase el tiempo, pincha con un alfiler: si entra suavemente, la patata está cocida (mejor usar aguja o alfiler, ya que un cuchillo podría abrir la piel y dejar entrar agua). Una vez enfriadas, pela la piel con la mano o con cuidado con un cuchillo.\n\nEn una ensaladera, echa las verduras crudas picaditas y mezcla con las patatas cocidas y la caballa. Aliña con aceite, vinagre y tomillo. Enfría antes de servir."
-    },
-    {
-      "id": "picoteo-hummus-zanahoria",
-      "nombre": "Picoteo de hummus con bastoncitos de zanahoria",
-      "categoria": "cena-entrante",
-      "semana": "Semana 1",
-      "ingredientes": ["Zanahorias", "Hummus envasado", "Aceite de oliva virgen extra", "Pimentón molido de la Vera"],
-      "elaboracion": "Corta en bastoncitos las zanahorias crudas y colócalas en un plato acompañando el hummus. Si te gusta, añade un toque de aceite de oliva virgen y pimentón por encima al hummus."
-    },
-    {
-      "id": "brocoli-sardinas-huevo",
-      "nombre": "Brócoli aliñado con sardinas y huevo duro",
-      "categoria": "cena-principal",
-      "semana": "Semana 1",
-      "ingredientes": ["Brócoli", "Huevo", "Sardinas en aceite de oliva virgen extra", "Zanahorias", "Aceite de oliva virgen extra", "Vinagre de manzana"],
-      "elaboracion": "Hierve el brócoli sólo 4-5 minutos, para que quede al dente y no pierda en exceso su interés nutricional. Añade el huevo duro, la zanahoria rallada (opcional) y la lata de sardinas en conserva. Añade un chorreoncito de vinagre, aceite, sal y pimienta."
-    },
-    {
-      "id": "batido-melon-pepino-yogur-hierbabuena",
-      "nombre": "Batido de melón, pepino, yogur y hierbabuena",
-      "categoria": "almuerzo-entrante",
-      "semana": "Semana 1",
-      "ingredientes": ["Melón", "Yogur griego natural", "Hierbabuena", "Limón"],
-      "elaboracion": "Lava, pela y retira las semillas del melón (2 tajadas aprox.) y medio pepino. Córtalos en cubos medianos para facilitar el licuado. Introduce el melón, el pepino, el yogur y 10-12 hojas de menta en el vaso de la batidora. Añade el zumo de lima (un chorreoncito). Tritura a máxima potencia durante aprox. 2 minutos hasta obtener una textura suave y homogénea. Sírvelo frío al instante."
-    },
-    {
-      "id": "ensalada-lentejas-mango-langostinos",
-      "nombre": "Ensalada de lentejas con mango y langostinos aderezada con vinagreta",
-      "categoria": "almuerzo-principal",
-      "semana": "Semana 1",
-      "ingredientes": ["Mango", "Lentejas", "Cebolla morada", "Langostinos", "Espinacas hojas", "Mostaza de Dijon (en grano)", "Aceite de oliva virgen extra", "Vinagre de manzana", "Cilantro fresco"],
-      "elaboracion": "Hierve las lentejas en agua (también puedes usar lentejas cocidas en conserva, en cuyo caso sólo tendrás que enjuagarlas). Lava la espinaca cruda y córtala fina. Pica el cilantro fresco (1 ramillete). Pica un mango en dados. Corta la cebolla morada en juliana.\n\nPara la vinagreta: mezcla 3 cucharadas soperas de aceite de oliva, 2 de vinagre y 1 de mostaza.\n\nPor último, mezcla la espinaca con las lentejas, el mango, la cebolla morada y el cilantro, y añade por encima los langostinos ya cocidos. Aliña a gusto con la vinagreta.\n\nNota: la lenteja caviar o beluga, o la lenteja negra, resulta excelente para esta receta."
-    },
-    {
-      "id": "escalivada-conserva",
-      "nombre": "Escalivada en conserva",
-      "categoria": "cena-entrante",
-      "semana": "Semana 1",
-      "ingredientes": ["Escalivada en conserva"],
-      "elaboracion": "Sirve añadiendo pimienta y algunas hierbas aromáticas al gusto, como orégano o tomillo."
-    },
-    {
-      "id": "filetitos-pollo-oregano",
-      "nombre": "Filetitos de pollo con orégano",
-      "categoria": "cena-principal",
-      "semana": "Semana 1",
-      "ingredientes": ["Pollo (pechuga)", "Aceite de oliva virgen extra", "Orégano", "Pimienta negra"],
-      "elaboracion": "En una sartén caliente con un poco de aceite, cocina los filetes al gusto. Añade al final un toque de pimienta y sal, y si te gusta, orégano y/o pimentón — todos estos sabores le van muy bien."
-    },
-    {
-      "id": "guarnicion-arroz-integral",
-      "nombre": "Guarnición de arroz integral",
-      "categoria": "almuerzo-entrante",
-      "semana": "Semana 1",
-      "ingredientes": ["Arroz integral", "Aceite de oliva virgen extra"],
-      "elaboracion": "El tiempo de cocción del arroz integral es bastante superior al del arroz blanco: en olla normal son unos 35 minutos, en olla exprés unos 15 minutos. Como excepción puntual, puedes utilizar vasitos de arroz integral listos para calentar."
-    },
-    {
-      "id": "salteado-verduras-salmon",
-      "nombre": "Salteado de verduras con salmón",
-      "categoria": "almuerzo-principal",
-      "semana": "Semana 1",
-      "ingredientes": ["Salmón", "Brócoli", "Calabacín", "Zanahorias", "Pimiento rojo", "Aceite de oliva virgen extra", "Eneldo", "Pimienta negra"],
-      "elaboracion": "Lava muy bien la verdura. En una sartén caliente con un poco de aceite de oliva virgen extra, cocina las verduras al dente, vuelta y vuelta. Salpimenta. Sin retirar las verduras de la sartén, incorpora el salmón y cocina a fuego medio-alto hasta que deje de estar crudo. El eneldo va muy bien con el salmón. Sirve caliente."
-    },
-    {
-      "id": "picoteo-pepinillos",
-      "nombre": "Picoteo de pepinillos",
-      "categoria": "cena-entrante",
-      "semana": "Semana 1",
-      "ingredientes": ["Pepinillos"],
-      "elaboracion": "Mientras preparas la comida, este picoteo ayuda a saciarte."
-    },
-    {
-      "id": "revuelto-trigueros-ajitos-gambas",
-      "nombre": "Revuelto de trigueros con ajitos y gambas",
-      "categoria": "cena-principal",
-      "semana": "Semana 1",
-      "ingredientes": ["Huevo", "Espárragos trigueros", "Gambas", "Aceite de oliva virgen extra", "Ajo"],
-      "elaboracion": "Saltea los espárragos trigueros (previamente lavados y troceados) con unos ajitos en una sartén caliente con un pelín de aceite. Salpimenta. Después de unos minutos, añade las gambas peladas y sigue cocinando unos minutos más. Por último, añade los huevos, remueve ligeramente y retira del fuego en el momento en que los huevos dejen de estar crudos."
-    },
-    {
-      "id": "wok-verduras-pollo",
-      "nombre": "Wok de verduras con pollo",
-      "categoria": "almuerzo-principal",
-      "semana": "Semana 1",
-      "ingredientes": ["Pollo (pechuga)", "Pimiento", "Calabacín", "Cebolla morada", "Zanahorias", "Jengibre", "Salsa de soja (baja en sal, ej. Kikkoman)"],
-      "elaboracion": "Corta la verdura en juliana (a tiras) y el pollo en trozos. Colócalo en una fuente y añade un chorreoncito de salsa de soja. Deja macerar 10 minutos. Procura incluir pimientos verdes, rojos, amarillos...\n\nSaltea en una sartén muy caliente con un poco de aceite de oliva, incorpora el pollo cortado en trozos y condimenta. No añadas más sal.\n\nNota: las verduras deben quedar al dente, es decir, no es necesario cocinarlas más de 7-8 minutos."
-    },
-    {
-      "id": "ensalada-remolacha-feta-pistachos",
-      "nombre": "Ensalada de remolacha, feta y pistachos",
-      "categoria": "cena-entrante",
-      "semana": "Semana 1",
-      "ingredientes": ["Remolacha", "Queso Feta", "Rúcula", "Pipas de calabaza", "Aceite de oliva virgen extra", "Pistachos", "Tomillo"],
-      "elaboracion": "Corta en dados o en rodajas la remolacha (envasada al vacío y no en bote en conserva). Colócala en un plato y desmenuza queso feta por encima (o en dados, si lo prefieres). Añade un puñadito de pistachos más o menos en el centro, unas pipas de calabaza, y coloca la rúcula alrededor del plato. Aliña con aceite de oliva virgen extra y tomillo."
-    },
-    {
-      "id": "mejillones-vapor-limon-hierbas",
-      "nombre": "Mejillones al vapor con limón y hierbas aromáticas",
-      "categoria": "cena-principal",
-      "semana": "Semana 1",
-      "ingredientes": ["Mejillones frescos", "Romero", "Orégano", "Tomillo", "Limón"],
-      "elaboracion": "Pon los mejillones tal cual en una olla, sin añadir agua. Añade un chorreoncito de aceite, las hierbas aromáticas y 1 limón cortado en dos mitades sobre los mejillones, y cuece en la misma olla, tapada. En el momento en que se abran, los mejillones estarán listos para consumir (unos 10 minutos aprox.)."
-    },
-    {
-      "id": "verduras-asadas-horno-hierbas",
-      "nombre": "Verduras asadas al horno con hierbas aromáticas",
-      "categoria": "almuerzo-entrante",
-      "semana": "Semana 1",
-      "ingredientes": ["Calabaza", "Tomate", "Berenjenas", "Pimiento rojo", "Calabacín", "Aceite de oliva virgen extra", "Tomillo", "Estragón", "Pimienta negra"],
-      "elaboracion": "Lava muy bien la verdura y córtala en rodajas no muy gruesas. Forra la bandeja del horno con papel vegetal y ve colocando la verdura separada, sin agolpar. Salpimenta a tu gusto antes de añadir el aceite y aprovecha para agregar hierbas: tomillo, romero, laurel, salvia, estragón, albahaca (frescos o secos), pero también ajo, jengibre, ralladura de piel cítrica, vinagre y especias como pimienta de cayena, curry, pimentón, clavo, comino o mostaza en grano... tienes muchas opciones para elegir.\n\nHorneado: precalienta el horno a 200-220 grados durante 10 minutos. El tiempo depende del tamaño de las verduras y de su contenido en agua — déjalas cocinarse tranquilamente hasta que se puedan pinchar con un tenedor y comiencen a dorarse. Como referencia, las que menos tardan en cocerse necesitan unos 20 min aprox. a 200 grados."
-    },
-    {
-      "id": "atun-encebollado-nutrimente",
-      "nombre": "Atún encebollado Nutrimente",
-      "categoria": "almuerzo-principal",
-      "semana": "Semana 1",
-      "ingredientes": ["Atún fresco", "Cebollas", "Aceite de oliva virgen extra", "Laurel", "Nuez moscada", "Vino blanco", "Pimienta"],
-      "elaboracion": "Corta la cebolla en juliana y dórala en una sartén con un poco de aceite. Cocina a fuego medio-bajo para que vaya pochándose y, a continuación, añade un chorreoncito de vino blanco. Reduce el alcohol e incorpora el atún. Condimenta con sal, pimienta y nuez moscada, y cocina vuelta y vuelta, justo el tiempo necesario para que no quede crudo y evitar que se seque el atún."
-    },
-    {
-      "id": "guacamole-casero",
-      "nombre": "Guacamole casero",
-      "categoria": "cena-entrante",
-      "semana": "Semana 1",
-      "ingredientes": ["Tomate", "Aguacate", "Comino molido", "Limón"],
-      "elaboracion": "Pela el aguacate, córtalo a la mitad, quítale el hueso y ponlo en un bol. Tritúralo con un tenedor, o si lo prefieres, con la batidora, para que quede más cremoso. Añade el tomate picado muy fino. Sazona al gusto con un toque de comino y, si quieres más picante, paprika. Finalmente, añade unas gotas de limón para evitar que se oxide y se oscurezca antes de servir."
-    },
-    {
-      "id": "fajitas-maiz-calabacin-carne",
-      "nombre": "Fajitas de maíz con salteado de calabacines y carne picada",
-      "categoria": "cena-principal",
-      "semana": "Semana 1",
-      "ingredientes": ["Carne picada de vacuno", "Calabacín", "Aceite de oliva virgen extra", "Tortillas mexicanas de maíz", "Pimienta", "Cúrcuma"],
-      "elaboracion": "Lava y pica fino el calabacín y saltéalo en una sartén caliente con un poco de aceite de oliva durante 4-5 minutos. A continuación añade la carne picada (unos 100 g por persona), sazona al gusto y sigue cocinando unos minutos más hasta que la carne esté cocinada (10 minutos aprox.). Por otro lado, calienta las tortillas en el microondas o en la sartén vuelta y vuelta, y finalmente rellénalas, enróllalas y aprieta bien."
-    },
-    {
-      "id": "ensalada-rucula-canonigos",
-      "nombre": "Ensalada de rúcula y canónigos",
-      "categoria": "almuerzo-entrante",
-      "semana": "Semana 1",
-      "ingredientes": ["Rúcula", "Zanahorias", "Canónigos", "Aceite de oliva virgen extra"],
-      "elaboracion": "Usa espinacas, canónigos, rúcula o berros en lugar de lechuga o romana, que son más flatulentas e indigestas. Condimenta con aceite de oliva virgen extra: si no es virgen extra, no conserva las propiedades saludables exclusivas del aceite de oliva."
-    },
-    {
-      "id": "pisto-quinoa-huevo",
-      "nombre": "Pisto casero con quinoa y huevo",
-      "categoria": "almuerzo-principal",
-      "semana": "Semana 1",
-      "ingredientes": ["Tomate natural triturado", "Huevo", "Quinoa", "Berenjenas", "Calabacín", "Pimiento", "Cebollas", "Aceite de oliva virgen extra", "Ajo"],
-      "elaboracion": "Comienza cortando en dados la berenjena con su piel y ponla con una cucharada de sal a drenar durante 1 hora encima de un papel de cocina o un colador. Cuando pase el tiempo, sécala con más papel y resérvala. Pica en trozos iguales el resto de las verduras.\n\nSofríe toda la verdura con un poco de aceite en una sartén caliente hasta que esté tierna; añade al final los tomates troceados muy pequeños, o directamente batidos previamente con la batidora, para que la salsa quede más homogénea. Sigue cocinando a fuego lento durante al menos 30 minutos, removiendo de vez en cuando, hasta que la salsa se espese. Nota: el tomate puede ser triturado natural en conserva.\n\nQuinoa: en una cacerola pon agua a hervir, añade la quinoa y una pizca de sal (2 tazas de agua por una de quinoa). Reduce a fuego bajo, cubre y cocina a fuego lento durante 15 minutos hasta que la quinoa esté tierna y esponjosa — el punto perfecto de cocción se alcanza cuando cada grano ha doblado su volumen y libera su germen blanco. Nota: como excepción puntual, puedes usar vasitos de quinoa listos para calentar.\n\nHuevo: hazlo a la plancha con un poco de aceite en una sartén antiadherente, y sírvelo inmediatamente sobre el plato de quinoa y pisto."
-    },
-    {
-      "id": "corazones-alcachofas-salmon-queso",
-      "nombre": "Corazones de alcachofas con salmón y queso",
-      "categoria": "cena-principal",
-      "semana": "Semana 1",
-      "ingredientes": ["Alcachofas en conserva o congeladas", "Queso fresco", "Salmón ahumado (sin azúcar añadido)", "Eneldo"],
-      "elaboracion": "Mezcla los corazones de alcachofa con el queso fresco y el salmón ahumado troceado. El eneldo puede perfumar muy bien el plato."
-    }
-  ]
-}
+[
+  {
+    "id": "alino-de-tomates",
+    "name": "Aliño de tomates",
+    "category": "almuerzo-entrante",
+    "ingredients": [
+      "Tomate",
+      "Aceite de oliva",
+      "Vinagre de manzana",
+      "Ajo"
+    ],
+    "preparation": "Condimentar al gusto. Cuidado con el aceite, sólo 1 cucharadita pequeña."
+  },
+  {
+    "id": "arroz-integral",
+    "name": "Arroz integral",
+    "category": "almuerzo-entrante",
+    "ingredients": [
+      "Arroz integral"
+    ],
+    "preparation": null
+  },
+  {
+    "id": "brocoli-esparragado",
+    "name": "Brócoli esparragado",
+    "category": "almuerzo-entrante",
+    "ingredients": [
+      "Brócoli",
+      "Aceite de oliva",
+      "Pimentón molido",
+      "Ajo"
+    ],
+    "preparation": "Hervir el brócoli al dente (que no quede demasiado tierno). Saltear los ajitos picados en una cucharada de aceite y añadir el pimentón. Incorporar el brócoli, cocinar unos minutos más y servir. No añadir pan ni más aceite de una cucharita por persona."
+  },
+  {
+    "id": "calabacines-con-oregano",
+    "name": "Calabacines con orégano",
+    "category": "almuerzo-entrante",
+    "ingredients": [
+      "Calabacín",
+      "Aceite de oliva",
+      "Ajo"
+    ],
+    "preparation": "Quitar las puntas, lavar y cortar los calabacines. Dorar el ajo picado en una sartén con poco aceite y añadir los trozos de calabacines. Después cocinarlos a fuego vivo, removiendo de vez en cuando. Sazonar, sacar la sartén del fuego y añadir un pellizco de orégano."
+  },
+  {
+    "id": "ensalada-de-canonigos",
+    "name": "Ensalada de canónigos",
+    "category": "almuerzo-entrante",
+    "ingredients": [
+      "Tomate",
+      "Canónigos",
+      "Zanahorias",
+      "Aceite de oliva",
+      "Vinagre de manzana"
+    ],
+    "preparation": "Picar el tomate y rallar la zanahoria. Añadir a la ensalada y aliñar con una cucharadita de aceite de oliva y vinagre."
+  },
+  {
+    "id": "ensalada-de-canonigos-con-pera-y-avellanas",
+    "name": "Ensalada de canónigos con pera y avellanas",
+    "category": "almuerzo-entrante",
+    "ingredients": [
+      "Peras",
+      "Canónigos",
+      "Avellanas",
+      "Aceite de oliva"
+    ],
+    "preparation": "6-7 avellanas machacadas, media pera cortadita en trozos y añadir a la ensalada. Aliñar al gusto."
+  },
+  {
+    "id": "ensalada-de-cogollos-y-tomates",
+    "name": "Ensalada de cogollos y tomates",
+    "category": "almuerzo-entrante",
+    "ingredients": [
+      "Cogollos",
+      "Tomate",
+      "Aceite de oliva"
+    ],
+    "preparation": null
+  },
+  {
+    "id": "ensalada-de-tomate-y-aguacate",
+    "name": "Ensalada de tomate y aguacate",
+    "category": "almuerzo-entrante",
+    "ingredients": [
+      "Tomate",
+      "Aguacate",
+      "Lechuga",
+      "Aceite de oliva",
+      "Vinagre Balsámico Módena"
+    ],
+    "preparation": null
+  },
+  {
+    "id": "ensalada-mixta-de-brotes-tiernos",
+    "name": "Ensalada mixta de brotes tiernos",
+    "category": "almuerzo-entrante",
+    "ingredients": [
+      "Mezclum lechugas",
+      "Zanahorias",
+      "Tomate",
+      "Aceite de oliva",
+      "Vinagre de manzana"
+    ],
+    "preparation": "Aliñar con media cucharadita de aceite de oliva."
+  },
+  {
+    "id": "ensalada-sencilla",
+    "name": "Ensalada sencilla",
+    "category": "almuerzo-entrante",
+    "ingredients": [
+      "Mezclum lechugas",
+      "Aceite de oliva"
+    ],
+    "preparation": null
+  },
+  {
+    "id": "guarnicion-de-couscous",
+    "name": "Guarnición de couscous",
+    "category": "almuerzo-entrante",
+    "ingredients": [
+      "Sémola de trigo",
+      "Aceite de oliva"
+    ],
+    "preparation": "Misma cantidad de sémola que de agua. Hervir el agua con sal, apagar el fuego y añadir la sémola. Remover y tapar unos minutos para que la humedad hinche el grano, removiendo de vez en cuando hasta que no esté apelmazado."
+  },
+  {
+    "id": "guisantes-salteados-con-toque-de-curcuma",
+    "name": "Guisantes salteados con toque de cúrcuma",
+    "category": "almuerzo-entrante",
+    "ingredients": [
+      "Guisantes frescos o congelados",
+      "Cebollas",
+      "Zanahorias",
+      "Aceite de oliva",
+      "Cúrcuma",
+      "Curry"
+    ],
+    "preparation": "Saltear la cebolla y la zanahoria en trocitos pequeños con el mínimo aceite posible, añadir los guisantes previamente cocidos y condimentar con curry y cúrcuma. Añadir un poco de agua o vino blanco para crear consistencia y seguir cocinando 10 minutos más a fuego medio."
+  },
+  {
+    "id": "parrillada-de-verduras-con-romero",
+    "name": "Parrillada de verduras con romero",
+    "category": "almuerzo-entrante",
+    "ingredients": [
+      "Berenjenas",
+      "Tomate",
+      "Calabacín",
+      "Pimiento",
+      "Albahaca",
+      "Romero"
+    ],
+    "preparation": "Hacer la verdura a la parrilla/plancha con el mínimo aceite posible, y aderezar con romero."
+  },
+  {
+    "id": "salteado-de-berenjenas-y-calabacines",
+    "name": "Salteado de berenjenas y calabacines",
+    "category": "almuerzo-entrante",
+    "ingredients": [
+      "Calabacín",
+      "Berenjenas",
+      "Tomate",
+      "Cebollas",
+      "Aceite de oliva",
+      "Ajo",
+      "Pimienta",
+      "Albahaca"
+    ],
+    "preparation": "Saltear la cebolla y el ajo hasta que dore. Añadir las rodajas de berenjena y calabacín. Espolvorear con una pizca de albahaca y pimienta."
+  },
+  {
+    "id": "tartar-de-remolacha-y-aguacate",
+    "name": "Tartar de remolacha y aguacate",
+    "category": "almuerzo-entrante",
+    "ingredients": [
+      "Remolacha",
+      "Aguacate",
+      "Soja germinada (Brotes)",
+      "Nueces sin cáscara",
+      "Cebollas",
+      "Miel",
+      "Mostaza de Dijon",
+      "Vinagre de manzana",
+      "Zumo de limón natural"
+    ],
+    "preparation": "Cortar la remolacha en cubitos pequeños. Mezclar la cebolla muy picada con mostaza, zumo de lima, sal y pimienta, y añadir a la remolacha. Machacar el aguacate con zumo de lima, sal y pimienta. Montar capas de remolacha y aguacate en un cuenco y decorar con germinados. Picar las nueces y mezclarlas con el resto de ingredientes para hacer la salsa de acompañamiento."
+  },
+  {
+    "id": "wok-de-pollo-con-verduras",
+    "name": "\"Wok\" de pollo con verduras",
+    "category": "almuerzo-principal",
+    "ingredients": [
+      "Pollo - pechuga",
+      "Pimiento",
+      "Calabacín",
+      "Cebollas",
+      "Zanahorias",
+      "Salsa de soja"
+    ],
+    "preparation": "Cortar la verdura en juliana. Saltear en una sartén muy caliente con unas gotas de aceite de oliva, incorporar el pollo cortado en trozos. Salpimentar y añadir salsa de soja al gusto."
+  },
+  {
+    "id": "albondigas-de-pollo-con-hierbabuena",
+    "name": "Albóndigas de pollo con hierbabuena",
+    "category": "almuerzo-principal",
+    "ingredients": [
+      "Champiñones",
+      "Carne picada pavo y pollo",
+      "Huevo",
+      "Cebollas",
+      "Pan rallado",
+      "Aceite de oliva",
+      "Hierbabuena"
+    ],
+    "preparation": "Amasar la carne picada con el huevo, ajo, perejil y pan rallado hasta conseguir una masa homogénea. Formar bolitas y hornear 20 minutos a 180°C. Acompañar de champiñones salteados."
+  },
+  {
+    "id": "arroz-int-con-pollo-calabacin-y-curry",
+    "name": "Arroz int. con pollo, calabacín y curry",
+    "category": "almuerzo-principal",
+    "ingredients": [
+      "Pollo - pechuga",
+      "Calabacín",
+      "Arroz integral",
+      "Cebollas",
+      "Aceite de oliva",
+      "Curry",
+      "Ajo"
+    ],
+    "preparation": "Saltear la verdurita en una cucharadita de aceite y condimentar con sal y curry. Hervir el arroz integral y mezclar todo, cocinando unos minutos más para que tome sabor."
+  },
+  {
+    "id": "atun-a-la-plancha",
+    "name": "Atún a la plancha",
+    "category": "almuerzo-principal",
+    "ingredients": [
+      "Atún fresco",
+      "Aceite de oliva"
+    ],
+    "preparation": "Adobar el atún en vinagre, sal, aceite y romero. Escurrir bien y hacer a la plancha con el mínimo aceite posible."
+  },
+  {
+    "id": "atun-encebollado-nutrimente",
+    "name": "Atún encebollado Nutrimente",
+    "category": "almuerzo-principal",
+    "ingredients": [
+      "Atún fresco",
+      "Cebollas",
+      "Aceite de oliva",
+      "Laurel",
+      "Vino blanco"
+    ],
+    "preparation": "Dorar las cebollas y añadir el vino blanco. Reducir el alcohol e incorporar el atún. Salpimentar y cocinar unos minutos (no demasiado, para que no quede seco)."
+  },
+  {
+    "id": "bacalao-a-la-plancha",
+    "name": "Bacalao a la plancha",
+    "category": "almuerzo-principal",
+    "ingredients": [
+      "Bacalao fresco",
+      "Aceite de oliva"
+    ],
+    "preparation": "Hacer el pescado con media cucharadita de aceite. Añadir hierbas aromáticas al gusto."
+  },
+  {
+    "id": "combinado-de-lenguado-brocoli-y-couscous",
+    "name": "Combinado de lenguado, brócoli y couscous",
+    "category": "almuerzo-principal",
+    "ingredients": [
+      "Lenguado",
+      "Brócoli",
+      "Sémola de trigo",
+      "Aceite de oliva"
+    ],
+    "preparation": "Cocinar el pescado a la plancha, hervir el brécol y acompañar con la sémola de trigo hervida. Condimentar al gusto."
+  },
+  {
+    "id": "couscous-con-pollo-y-verduras-nutrimente",
+    "name": "Couscous con pollo y verduras Nutrimente",
+    "category": "almuerzo-principal",
+    "ingredients": [
+      "Pollo - pechuga",
+      "Calabacín",
+      "Sémola de trigo",
+      "Berenjenas",
+      "Puerros",
+      "Aceite de oliva",
+      "Cúrcuma",
+      "Curry",
+      "Jengibre"
+    ],
+    "preparation": "Sofreír las verduras y añadir el pollo después, condimentando con las especias. Hervir la sémola de trigo por separado y servir el pollo y las verduras alrededor."
+  },
+  {
+    "id": "ensalada-coleslaw",
+    "name": "Ensalada Coleslaw",
+    "category": "almuerzo-principal",
+    "ingredients": [
+      "Manzanas",
+      "Col",
+      "Zanahorias",
+      "Pepinillos",
+      "Mostaza de Dijon",
+      "Vinagre de manzana"
+    ],
+    "preparation": "Rallarlo todo muy fino y condimentar con una vinagreta de aceite, vinagre y mostaza."
+  },
+  {
+    "id": "ensalada-de-alubias-con-aguacate-y-anchoas-nutrimente",
+    "name": "Ensalada de alubias con aguacate y anchoas Nutrimente",
+    "category": "almuerzo-principal",
+    "ingredients": [
+      "Alubias Secas",
+      "Aguacate",
+      "Anchoas en aceite",
+      "Aceite de oliva",
+      "Vinagre de manzana"
+    ],
+    "preparation": "Remojar las alubias la noche anterior y cocerlas en olla a presión. Cortar el aguacate en dados y mezclar con las alubias cocidas. Aliñar con aceite y vinagre, y añadir las anchoas por encima."
+  },
+  {
+    "id": "ensalada-de-alubias-con-pavo-judias-verdes-y-tomate",
+    "name": "Ensalada de alubias con pavo, judías verdes y tomate",
+    "category": "almuerzo-principal",
+    "ingredients": [
+      "Alubias Secas",
+      "Pechuga de pavo embutido",
+      "Pimiento",
+      "Judías verdes",
+      "Tomate",
+      "Rúcula"
+    ],
+    "preparation": "Cocer las alubias remojadas la noche anterior. Cortar el pavo en dados, cocer las judías verdes 3 minutos. Mezclar todo en una ensaladera con tomate y rúcula, aliñar con aceite y vinagre, y añadir las alubias cocidas."
+  },
+  {
+    "id": "estofado-de-legumbre-de-soja",
+    "name": "Estofado de legumbre de soja",
+    "category": "almuerzo-principal",
+    "ingredients": [
+      "Soja habas",
+      "Cebollas",
+      "Calabacín",
+      "Zanahorias",
+      "Aceite de oliva",
+      "Apio",
+      "Cúrcuma",
+      "Ajo"
+    ],
+    "preparation": "Se cocina igual que las lentejas: remojar previamente, poner a cocer con agua, aceite y sal, añadir el resto de verduras y especias, y cocer al menos media hora hasta que estén tiernas."
+  },
+  {
+    "id": "fabada-con-pulpo-nutrimente",
+    "name": "Fabada con pulpo Nutrimente",
+    "category": "almuerzo-principal",
+    "ingredients": [
+      "Pulpo",
+      "Alubias Secas",
+      "Cebollas",
+      "Pimiento",
+      "Tomate",
+      "Aceite de oliva",
+      "Ajo",
+      "Carne de pimiento choricero"
+    ],
+    "preparation": "Saltear el pulpo cortado en trozos, añadir ajo, cebolla y pimientos. Añadir la carne de pimiento choricero, reducir el alcohol si se usa brandy, añadir las alubias remojadas y cubrir con agua fría. Cocer en olla a presión hasta que estén tiernas."
+  },
+  {
+    "id": "garbanzos-con-mango-nutrimente",
+    "name": "Garbanzos con mango Nutrimente",
+    "category": "almuerzo-principal",
+    "ingredients": [
+      "Garbanzos",
+      "Mango",
+      "Tomate",
+      "Cebollas",
+      "Pimiento",
+      "Aceite de oliva",
+      "Jengibre",
+      "Comino molido",
+      "Cúrcuma"
+    ],
+    "preparation": "Pochar la verdura, añadir los garbanzos cocidos y las especias, cocinar a fuego lento añadiendo agua poco a poco. Al final, añadir el mango troceado."
+  },
+  {
+    "id": "guisantes-con-choco",
+    "name": "Guisantes con choco",
+    "category": "almuerzo-principal",
+    "ingredients": [
+      "Sepia o choco",
+      "Guisantes frescos o congelados",
+      "Cebollas",
+      "Aceite de oliva"
+    ],
+    "preparation": "Pasar por la plancha la sepia cortada a trozos pequeños. Saltear con los guisantes (previamente hervidos) y la cebolla durante varios minutos y servir."
+  },
+  {
+    "id": "habas-salteadas-con-jamon",
+    "name": "Habas salteadas con jamón",
+    "category": "almuerzo-principal",
+    "ingredients": [
+      "Habas frescas",
+      "Cebollas",
+      "Jamón serrano",
+      "Aceite de oliva"
+    ],
+    "preparation": "Rehogar las habas previamente cocidas con ajo, perejil y sal. A los 10 minutos añadir el jamón picado y terminar de cocer con un chorreoncito de vino blanco."
+  },
+  {
+    "id": "lentejas-estofadas-nutrimente",
+    "name": "Lentejas estofadas Nutrimente",
+    "category": "almuerzo-principal",
+    "ingredients": [
+      "Lentejas",
+      "Zanahorias",
+      "Tomate",
+      "Cebollas",
+      "Pimiento",
+      "Aceite de oliva",
+      "Cilantro",
+      "Comino molido",
+      "Cúrcuma"
+    ],
+    "preparation": "Poner las lentejas a cocer con agua, el aceite y una pizca de sal. Añadir el resto de verduras picaditas y las especias. Cocer al menos durante media hora o hasta que estén tiernas."
+  },
+  {
+    "id": "macarrones-integrales-con-verduritas",
+    "name": "Macarrones integrales con verduritas",
+    "category": "almuerzo-principal",
+    "ingredients": [
+      "Pasta integral",
+      "Tomate",
+      "Pimiento",
+      "Cebollas",
+      "Aceite de oliva",
+      "Puerros",
+      "Zanahorias"
+    ],
+    "preparation": "Cocer los macarrones integrales al dente. Elaborar una salsa con el resto de ingredientes junto con mejorana, curry, paprika y pimienta, y mezclar con la pasta."
+  },
+  {
+    "id": "merluza-a-la-plancha",
+    "name": "Merluza a la plancha",
+    "category": "almuerzo-principal",
+    "ingredients": [
+      "Merluza",
+      "Aceite de oliva"
+    ],
+    "preparation": null
+  },
+  {
+    "id": "muslitos-de-pollo-al-horno-con-patata-y-calabacines",
+    "name": "Muslitos de pollo al horno con patata y calabacines",
+    "category": "almuerzo-principal",
+    "ingredients": [
+      "Pollo - muslo",
+      "Patatas",
+      "Calabacín",
+      "Aceite de oliva",
+      "Vino blanco",
+      "Orégano"
+    ],
+    "preparation": "Hornear los muslitos de pollo con las hierbas y el vino blanco. Salpimentar."
+  },
+  {
+    "id": "pasta-integral-con-cebollita-y-york",
+    "name": "Pasta integral con cebollita y york",
+    "category": "almuerzo-principal",
+    "ingredients": [
+      "Pasta integral",
+      "Cebollas",
+      "Puerros",
+      "Jamón cocido",
+      "Aceite de oliva",
+      "Pimienta",
+      "Nuez moscada"
+    ],
+    "preparation": "Hacer un sofrito con los puerros, cebollas y jamón cocido picadito. Añadir especias aromáticas al gusto, controlando la sal."
+  },
+  {
+    "id": "pez-espada-en-salsa-de-naranja-y-almendra",
+    "name": "Pez espada en salsa de naranja y almendra",
+    "category": "almuerzo-principal",
+    "ingredients": [
+      "Pez Espada (Emperador)",
+      "Calabacín",
+      "Zumo de naranja natural",
+      "Almendras",
+      "Pimiento",
+      "Cebollas",
+      "Aceite de oliva",
+      "Ajo"
+    ],
+    "preparation": "Sofreír los ajos, añadir las verduras y las almendras, salpimentar y cocinar unos minutos; reservar. Cocinar el pez espada en la misma sartén y añadir el zumo de naranja a fuego alto hasta que se consuma. Añadir la verdura reservada y servir."
+  },
+  {
+    "id": "pez-espada-plancha",
+    "name": "Pez espada plancha",
+    "category": "almuerzo-principal",
+    "ingredients": [
+      "Pez Espada (Emperador)",
+      "Aceite de oliva"
+    ],
+    "preparation": "Salpimentar con moderación."
+  },
+  {
+    "id": "pollo-al-curry",
+    "name": "Pollo al curry",
+    "category": "almuerzo-principal",
+    "ingredients": [
+      "Pollo - pechuga",
+      "Manzanas",
+      "Cebollas",
+      "Leche evaporada Ideal",
+      "Aceite de oliva",
+      "Curry",
+      "Nuez moscada",
+      "Ajo",
+      "Pimienta"
+    ],
+    "preparation": "Saltear la cebolleta, añadir la manzana y el curry. Agregar leche evaporada y dejar espesar a fuego lento. Aparte, saltear el pollo condimentado y añadirlo a la salsa; cocinar hasta que se mezclen los sabores. Acompañar de couscous hervido."
+  },
+  {
+    "id": "pollo-en-salsa-de-soja-naranja-y-miel",
+    "name": "Pollo en salsa de soja, naranja y miel",
+    "category": "almuerzo-principal",
+    "ingredients": [
+      "Pollo - pechuga",
+      "Zumo de naranja natural",
+      "Salsa de soja",
+      "Miel",
+      "Aceite de oliva",
+      "Ajo",
+      "Vino blanco"
+    ],
+    "preparation": "Batir el zumo de naranja con ajo, salsa de soja, miel, vino blanco y pimienta. Pochar la cebolleta, saltear el pollo hasta dorar, añadir la salsa de naranja y llevar a ebullición. Bajar el fuego y dejar espesar unos 10 minutos."
+  },
+  {
+    "id": "potaje-de-alubias-con-verduras",
+    "name": "Potaje de alubias con verduras",
+    "category": "almuerzo-principal",
+    "ingredients": [
+      "Judías secas",
+      "Pimiento",
+      "Cebollas",
+      "Tomate",
+      "Zanahorias",
+      "Aceite de oliva"
+    ],
+    "preparation": "Rehogar las verduritas y añadir a la olla con las alubias. Condimentar con pimentón y comino, para facilitar la digestión. Una cucharada de aceite por comida."
+  },
+  {
+    "id": "risotto-de-quinoa-y-calabaza-nutrimente",
+    "name": "Risotto de quinoa y calabaza Nutrimente",
+    "category": "almuerzo-principal",
+    "ingredients": [
+      "Calabaza amarilla",
+      "Vino blanco",
+      "Quinoa",
+      "Cebollas",
+      "Aceite de oliva",
+      "Pimienta"
+    ],
+    "preparation": "Enjuagar la quinoa, hervirla con agua y sal hasta que esté tierna. Rehogar la cebolla y la calabaza en taquitos, añadir el vino y dejar evaporar, mezclar con la quinoa y cocinar 2 minutos más."
+  },
+  {
+    "id": "salmon-a-la-plancha",
+    "name": "Salmón a la plancha",
+    "category": "almuerzo-principal",
+    "ingredients": [
+      "Salmón"
+    ],
+    "preparation": "Poner el salmón con la plancha bien caliente."
+  },
+  {
+    "id": "salmon-en-lecho-de-espinacas-y-salsa-de-yogur",
+    "name": "Salmón en lecho de espinacas y salsa de yogur",
+    "category": "almuerzo-principal",
+    "ingredients": [
+      "Salmón",
+      "Queso Batido 0%",
+      "Espinacas hojas",
+      "Pepinos",
+      "Hierbabuena",
+      "Pimienta"
+    ],
+    "preparation": "Mezclar el queso batido 0% con hierbabuena picada, pimienta y pepino rallado y escurrido para la salsa de yogur. Cocinar el salmón a la plancha (no necesita aceite) y servir con la salsa y una ensalada de espinacas."
+  },
+  {
+    "id": "salteado-de-berenjenas-con-pollo-nutrimente",
+    "name": "Salteado de berenjenas con pollo Nutrimente",
+    "category": "almuerzo-principal",
+    "ingredients": [
+      "Berenjenas",
+      "Pollo - pechuga",
+      "Cebollas",
+      "Pimiento",
+      "Aceite de oliva",
+      "Pimentón molido",
+      "Cúrcuma",
+      "Orégano"
+    ],
+    "preparation": "Picar las berenjenas en cuadraditos y cortar cebolla y pimiento en tiras finas. Mezclar el pollo troceado con pimentón y orégano. Rehogar cebolla y pimiento, añadir la berenjena y, cuando esté casi hecha, el pollo; cocinar 15 minutos."
+  },
+  {
+    "id": "salto-de-verduras-con-salmon",
+    "name": "Salto de verduras con salmón",
+    "category": "almuerzo-principal",
+    "ingredients": [
+      "Salmón",
+      "Brócoli",
+      "Calabacín",
+      "Zanahorias",
+      "Aceite de oliva"
+    ],
+    "preparation": "Hervir al vapor la verdura. Hacer a la plancha el salmón (no hace falta aceite), salpimentar y servir todo junto. El eneldo va muy bien con el salmón; la salsa de soja es buen acompañante."
+  },
+  {
+    "id": "wok-de-verduras-y-pollo-con-fideos-chinos",
+    "name": "Wok de verduras y pollo con fideos chinos",
+    "category": "almuerzo-principal",
+    "ingredients": [
+      "Pollo - pechuga",
+      "Pimiento",
+      "Fideos de arroz",
+      "Zanahorias",
+      "Cebollas",
+      "Calabacín",
+      "Salsa de soja",
+      "Aceite de oliva",
+      "Vino blanco",
+      "Jengibre",
+      "Pimienta"
+    ],
+    "preparation": "Saltear las verduras en una sartén con aceite, añadir pimienta y jengibre, un chorro de salsa de soja y un poco de agua. Añadir el pollo troceado y cocinar al menos 15 minutos. Hervir los fideos de arroz aparte y servir de inmediato."
+  },
+  {
+    "id": "alino-de-pimientos-asados-con-cebolla",
+    "name": "Aliño de pimientos asados con cebolla",
+    "category": "cena-entrante",
+    "ingredients": [
+      "Pimiento",
+      "Cebollas",
+      "Aceite de oliva",
+      "Vinagre de manzana"
+    ],
+    "preparation": "Aliñarlos con una cucharadita de aceite de oliva. Le van bien las hierbas aromáticas, como el orégano y tomillo."
+  },
+  {
+    "id": "consome",
+    "name": "Consomé",
+    "category": "cena-entrante",
+    "ingredients": [
+      "Caldo de carne brick"
+    ],
+    "preparation": "Aunque se indica la opción de brick, se aconseja preferiblemente caldo casero, retirando la grasa con un cazo cuando se enfríe. Buena opción como complemento de comidas y cenas cuando se tiene más hambre."
+  },
+  {
+    "id": "crema-de-calabacin",
+    "name": "Crema de calabacín",
+    "category": "cena-entrante",
+    "ingredients": [
+      "Calabacín",
+      "Leche desnatada",
+      "Puerros",
+      "Patatas",
+      "Cebollas",
+      "Aceite de oliva"
+    ],
+    "preparation": "Hervir todos los ingredientes usando el mínimo agua posible y batir. La leche desnatada y el aceite dan una textura más untuosa. Usar leche sin lactosa o vegetal para intolerantes."
+  },
+  {
+    "id": "crema-de-verduras",
+    "name": "Crema de verduras",
+    "category": "cena-entrante",
+    "ingredients": [
+      "Patatas",
+      "Zanahorias",
+      "Puerros",
+      "Cebollas",
+      "Calabaza amarilla",
+      "Aceite de oliva"
+    ],
+    "preparation": "Hervir todos los ingredientes y pasar por la batidora. Añadir el aceite una vez hervido, usando poca agua para poder batirlo todo (incluida el agua de cocción)."
+  },
+  {
+    "id": "ensalada-de-canonigos-y-nueces",
+    "name": "Ensalada de canónigos y nueces",
+    "category": "cena-entrante",
+    "ingredients": [
+      "Mezclum lechugas",
+      "Nueces sin cáscara",
+      "Tomate",
+      "Zanahorias",
+      "Aceite de oliva"
+    ],
+    "preparation": "3 nueces enteras por persona. Añadir muy poco aceite, ya que las nueces contienen la ración de grasa insaturada."
+  },
+  {
+    "id": "ensalada-mixta-con-atun",
+    "name": "Ensalada mixta con atún",
+    "category": "cena-entrante",
+    "ingredients": [
+      "Tomate",
+      "Mezclum lechugas",
+      "Atún al natural",
+      "Zanahorias",
+      "Aceite de oliva",
+      "Vinagre de manzana"
+    ],
+    "preparation": null
+  },
+  {
+    "id": "judias-verdes-con-huevo-duro",
+    "name": "Judías verdes con huevo duro",
+    "category": "cena-entrante",
+    "ingredients": [
+      "Judías verdes",
+      "Huevo duro",
+      "Aceite de oliva"
+    ],
+    "preparation": "Condimentar al gusto. Utilizar con moderación la sal."
+  },
+  {
+    "id": "pate-de-berenjena-y-tomate-seco-nutrimente",
+    "name": "Paté de berenjena y tomate seco Nutrimente",
+    "category": "cena-entrante",
+    "ingredients": [
+      "Berenjenas",
+      "Tomate seco",
+      "Nueces sin cáscara",
+      "Cebollas",
+      "Ajo",
+      "Aceite de oliva"
+    ],
+    "preparation": "Hervir el tomate seco 5 minutos para reblandecerlo. Saltear las berenjenas con el ajo, cebollas y el tomate. Batir con 3 nueces hasta obtener una crema espesa, añadiendo agua según el espesor deseado."
+  },
+  {
+    "id": "pure-de-brocoli-y-zanahoria",
+    "name": "Puré de brócoli y zanahoria",
+    "category": "cena-entrante",
+    "ingredients": [
+      "Brócoli",
+      "Zanahorias",
+      "Cebollas",
+      "Aceite de oliva",
+      "Nuez moscada",
+      "Pimienta"
+    ],
+    "preparation": "Trocear el brócoli y hervir junto con las patatas, cebollas y zanahoria en el mínimo agua posible. Escurrir, añadir una pizca de nuez moscada y jengibre en polvo, y triturar todo."
+  },
+  {
+    "id": "pure-de-calabaza",
+    "name": "Puré de calabaza",
+    "category": "cena-entrante",
+    "ingredients": [
+      "Calabaza amarilla",
+      "Cebollas",
+      "Zanahorias",
+      "Aceite de oliva"
+    ],
+    "preparation": "Hervir la calabaza con poca agua. Mezclar bien con los otros ingredientes, a fuego lento, hasta conseguir un puré."
+  },
+  {
+    "id": "pure-de-verduras",
+    "name": "Puré de verduras",
+    "category": "cena-entrante",
+    "ingredients": [
+      "Calabacín",
+      "Zanahorias",
+      "Puerros",
+      "Cebollas",
+      "Aceite de oliva"
+    ],
+    "preparation": "Sin patata. Máximo 1 cucharada de aceite por comida."
+  },
+  {
+    "id": "sopa-con-fideos-casera",
+    "name": "Sopa con fideos casera",
+    "category": "cena-entrante",
+    "ingredients": [
+      "Puerros",
+      "Zanahorias",
+      "Cebollas",
+      "Apio",
+      "Fideos",
+      "Aceite de oliva"
+    ],
+    "preparation": "Hervir todos los ingredientes en una olla con agua y unas gotas de aceite de oliva virgen. Salpimentar. La verdura puede dejarse en la sopa muy picada o retirarse al final para hacer un puré. Añadir un puñado de fideos por persona al final."
+  },
+  {
+    "id": "atun-al-natural",
+    "name": "Atún al natural",
+    "category": "cena-principal",
+    "ingredients": [
+      "Atún al natural"
+    ],
+    "preparation": null
+  },
+  {
+    "id": "ceviche-de-atun",
+    "name": "Ceviche de atún",
+    "category": "cena-principal",
+    "ingredients": [
+      "Atún fresco",
+      "Cebollas",
+      "Apio",
+      "Pimienta",
+      "Ajo",
+      "Perejil",
+      "Cilantro",
+      "Zumo de limón natural"
+    ],
+    "preparation": "Cortar el atún fresco en dados. Mezclar con ajo, cebolla, apio picado y zumo de limón/lima, sazonar y dejar reposar en el frigorífico media hora. Condimentar con cilantro fresco al servir, con cuidado porque tiene un sabor fuerte."
+  },
+  {
+    "id": "corazones-de-alcachofas-con-salmon-y-queso",
+    "name": "Corazones de alcachofas con salmón y queso",
+    "category": "cena-principal",
+    "ingredients": [
+      "Alcachofas en lata",
+      "Queso de Burgos",
+      "Salmón ahumado"
+    ],
+    "preparation": "50 g de salmón (1/2 paquete) + 1 tarrina individual de queso de Burgos (70 g). El eneldo puede perfumar bien el plato. No añadir aceite."
+  },
+  {
+    "id": "crema-de-calabaza-con-setas-al-ajillo-y-huevo-poche",
+    "name": "Crema de calabaza con setas al ajillo y huevo poché",
+    "category": "cena-principal",
+    "ingredients": [
+      "Calabaza amarilla",
+      "Patatas",
+      "Setas",
+      "Huevo",
+      "Puerros",
+      "Zanahorias",
+      "Aceite de oliva",
+      "Ajo",
+      "Pimienta"
+    ],
+    "preparation": "Hervir la calabaza, zanahoria, patata y puerro en la mínima agua posible durante 15 minutos y batir, incorporando un chorreoncito de leche desnatada. Saltear las setas con ajitos y servir por encima, junto con un huevo pasado por agua en trocitos."
+  },
+  {
+    "id": "ensalada-california",
+    "name": "Ensalada california",
+    "category": "cena-principal",
+    "ingredients": [
+      "Mezclum lechugas",
+      "Tomate",
+      "Nueces sin cáscara",
+      "Jamón cocido",
+      "Miel",
+      "Mostaza de Dijon",
+      "Vinagre de manzana",
+      "Zumo de limón natural"
+    ],
+    "preparation": "3 nueces + 1 loncha gruesa de jamón cocido + tomate + mezclum. Hacer una vinagreta con mostaza, miel, limón y vinagre. No añadir aceite a esta ensalada."
+  },
+  {
+    "id": "ensalada-de-niza",
+    "name": "Ensalada de Niza",
+    "category": "cena-principal",
+    "ingredients": [
+      "Atún al natural",
+      "Huevo duro",
+      "Tomate",
+      "Judías verdes",
+      "Pimiento",
+      "Mezclum lechugas",
+      "Aceitunas negras",
+      "Aceite de oliva",
+      "Albahaca"
+    ],
+    "preparation": "Por persona: 1 huevo duro + 1 lata de atún natural + 3-4 aceitunas negras + el resto de los ingredientes."
+  },
+  {
+    "id": "ensalada-de-calabacin-y-salmon",
+    "name": "Ensalada de calabacín y salmón",
+    "category": "cena-principal",
+    "ingredients": [
+      "Calabacín",
+      "Queso de Burgos",
+      "Salmón ahumado",
+      "Rúcula",
+      "Mezclum lechugas",
+      "Aceite de oliva",
+      "Eneldo"
+    ],
+    "preparation": "Marinar el calabacín en rodajas finas con aceite, limón, vinagre, sal y pimienta. Disponer la rúcula y las hojas verdes en una fuente, repartir el salmón, el queso y el calabacín encima, y aliñar con el marinado."
+  },
+  {
+    "id": "ensalada-de-calabaza-y-vinagreta-de-tomillo",
+    "name": "Ensalada de calabaza y vinagreta de tomillo",
+    "category": "cena-principal",
+    "ingredients": [
+      "Calabaza",
+      "Rúcula",
+      "Salsa de soja",
+      "Pipas de calabaza",
+      "Sésamo",
+      "Aceite de oliva",
+      "Vinagre Balsámico Módena",
+      "Pimienta",
+      "Tomillo"
+    ],
+    "preparation": "Cortar la calabaza en dados, mezclar con aceite, vinagre y pimienta, y hornear 20-25 minutos hasta que esté tierna. Enfriar y montar sobre la rúcula con pipas de calabaza y sésamo. Aliñar con una vinagreta de aceite, salsa de soja, limón, tomillo y pimienta."
+  },
+  {
+    "id": "ensalada-de-espinacas-con-gulas",
+    "name": "Ensalada de espinacas con gulas",
+    "category": "cena-principal",
+    "ingredients": [
+      "Gulas",
+      "Espinacas hojas",
+      "Aceite de oliva",
+      "Vinagre Balsámico Módena"
+    ],
+    "preparation": "Saltear las gulas con ajitos. Verter las gulas calientes sobre las hojas de espinacas y añadir vinagre de Módena al gusto. Comer caliente."
+  },
+  {
+    "id": "ensalada-tropical",
+    "name": "Ensalada tropical",
+    "category": "cena-principal",
+    "ingredients": [
+      "Piña natural",
+      "Manzanas",
+      "Aguacate",
+      "Mezclum lechugas",
+      "Gambas",
+      "Aceite de oliva"
+    ],
+    "preparation": "Aliñar la ensalada con una vinagreta de vinagre, zumo de limón, sal, pimienta y estragón. Hacer a la plancha unas gambas y añadirlas a la ensalada."
+  },
+  {
+    "id": "gulas-al-ajillo",
+    "name": "Gulas al ajillo",
+    "category": "cena-principal",
+    "ingredients": [
+      "Gulas",
+      "Aceite de oliva",
+      "Ajo"
+    ],
+    "preparation": "Un envase individual por persona (100 g). Saltear con ajo y una cucharadita de aceite de oliva."
+  },
+  {
+    "id": "gulas-salteadas-con-setas",
+    "name": "Gulas salteadas con setas",
+    "category": "cena-principal",
+    "ingredients": [
+      "Setas",
+      "Gulas",
+      "Aceite de oliva",
+      "Pimienta"
+    ],
+    "preparation": "Saltear ajitos con las setas, dejar cocinar unos minutos y añadir las gulas. Salpimentar y cocinar 10 minutos más a fuego lento."
+  },
+  {
+    "id": "hamburguesa-casera-con-cebolla-y-champinones",
+    "name": "Hamburguesa casera con cebolla y champiñones",
+    "category": "cena-principal",
+    "ingredients": [
+      "Carne picada vacuno",
+      "Champiñones",
+      "Cebollas",
+      "Aceite de oliva"
+    ],
+    "preparation": "Dorar la cebolla y saltear los champiñones. Cocinar la hamburguesa y acompañar de la guarnición."
+  },
+  {
+    "id": "hamburguesa-de-espinaca-y-salmon-sf",
+    "name": "Hamburguesa de espinaca y salmón (SF)",
+    "category": "cena-principal",
+    "ingredients": [
+      "Salmón",
+      "Espinacas congeladas",
+      "Aceite de oliva",
+      "Harina de Maíz"
+    ],
+    "preparation": "Desmenuzar el salmón cocinado y mezclar con las espinacas bien escurridas. Añadir harina de maíz a cada mitad de la masa y unas gotas de agua para que hidrate y mantenga la forma. Formar las hamburguesas y guardar en nevera o congelar."
+  },
+  {
+    "id": "hamburguesa-ternera-plancha",
+    "name": "Hamburguesa ternera plancha",
+    "category": "cena-principal",
+    "ingredients": [
+      "Carne picada vacuno",
+      "Aceite de oliva"
+    ],
+    "preparation": "Condimentar al gusto. Utilizar con moderación la sal."
+  },
+  {
+    "id": "mejillones-hervidos-a-la-marinera",
+    "name": "Mejillones hervidos a la marinera",
+    "category": "cena-principal",
+    "ingredients": [
+      "Mejillones",
+      "Tomate triturado en conserva",
+      "Aceite de oliva",
+      "Limón",
+      "Orégano",
+      "Tomillo"
+    ],
+    "preparation": "Hervir los mejillones en agua con limón, hierbas aromáticas y tomate triturado, unos 10 minutos hasta que estén cocidos. Retirar y servir."
+  },
+  {
+    "id": "pastel-de-berenjena-nutrimente",
+    "name": "Pastel de berenjena Nutrimente",
+    "category": "cena-principal",
+    "ingredients": [
+      "Berenjenas",
+      "Tomate triturado en conserva",
+      "Queso Mozzarella",
+      "Jamón serrano",
+      "Orégano",
+      "Tomillo",
+      "Pimienta"
+    ],
+    "preparation": "Cortar la berenjena en rodajas finas y ablandarlas con sal en el microondas. Montar capas de tomate triturado, berenjena, jamón y mozzarella en una fuente de horno, repetir hasta terminar. Salpimentar, añadir hierbas y hornear a 170-180°C durante 15-20 minutos."
+  },
+  {
+    "id": "pavo-y-pina-a-la-plancha-nutrimente",
+    "name": "Pavo y piña a la plancha Nutrimente",
+    "category": "cena-principal",
+    "ingredients": [
+      "Piña natural",
+      "Pavo - pechuga",
+      "Aceite de oliva"
+    ],
+    "preparation": "Hacer a la plancha 2 rodajas gruesas de pavo, vuelta y vuelta, y 3-4 rodajas de piña. Servir todo junto."
+  },
+  {
+    "id": "picoteo-embutido-y-queso-nutrimente",
+    "name": "Picoteo embutido y queso Nutrimente",
+    "category": "cena-principal",
+    "ingredients": [
+      "Queso de Burgos",
+      "Pechuga de pavo embutido"
+    ],
+    "preparation": "3-4 lonchas de embutido y 1 envase individual de quesito de Burgos."
+  },
+  {
+    "id": "pulpo-con-pimenton",
+    "name": "Pulpo con pimentón",
+    "category": "cena-principal",
+    "ingredients": [
+      "Pulpo",
+      "Aceite de oliva",
+      "Pimentón molido"
+    ],
+    "preparation": "Hervir el pulpo (o comprarlo ya cocido). Condimentar con pimentón molido y unas gotas de aceite."
+  },
+  {
+    "id": "revuelto-de-ajetes-espinacas-y-gambas",
+    "name": "Revuelto de ajetes, espinacas y gambas",
+    "category": "cena-principal",
+    "ingredients": [
+      "Espinacas congeladas",
+      "Ajetes",
+      "Gambas",
+      "Huevo - clara",
+      "Aceite de oliva"
+    ],
+    "preparation": "Blanquear los ajetes troceados en agua hirviendo con sal, escurrir y sofreír en aceite. Añadir las espinacas descongeladas y las gambas. Batir los huevos con perejil y sal, añadir a la sartén y remover hasta que cuajen."
+  },
+  {
+    "id": "revuelto-de-ajetes-trigueros-y-piquillo",
+    "name": "Revuelto de ajetes, trigueros y piquillo",
+    "category": "cena-principal",
+    "ingredients": [
+      "Huevo",
+      "Ajetes",
+      "Pimiento morrón conserva",
+      "Espárragos trigueros",
+      "Aceite de oliva",
+      "Pimentón molido"
+    ],
+    "preparation": "Saltear los ajitos en aceite, añadir las verduritas picadas y a continuación el huevo. Cocinar el mínimo tiempo posible y salpimentar."
+  },
+  {
+    "id": "revuelto-de-setas",
+    "name": "Revuelto de setas",
+    "category": "cena-principal",
+    "ingredients": [
+      "Setas",
+      "Huevo",
+      "Aceite de oliva",
+      "Ajo",
+      "Albahaca",
+      "Pimienta"
+    ],
+    "preparation": "1 huevo + 1 clara de otro + cantidad libre de setas. Condimentar con ajo, pimienta y albahaca."
+  },
+  {
+    "id": "roulades-de-espinacas-con-queso-y-pavo",
+    "name": "Roulades de espinacas con queso y pavo",
+    "category": "cena-principal",
+    "ingredients": [
+      "Espinacas congeladas",
+      "Huevo",
+      "Queso Requesón",
+      "Pechuga de pavo embutido"
+    ],
+    "preparation": "Hervir y escurrir bien las espinacas. Batir con la yema, sal, nuez moscada y pimienta; incorporar la clara montada. Extender sobre papel vegetal y hornear 10-12 minutos a 180°C. Untar con requesón, colocar el pavo, enrollar y servir."
+  },
+  {
+    "id": "tortilla-de-berenjena-queso-y-pimiento",
+    "name": "Tortilla de berenjena, queso y pimiento",
+    "category": "cena-principal",
+    "ingredients": [
+      "Huevo",
+      "Berenjenas",
+      "Queso Mozzarella",
+      "Pimiento",
+      "Cebollas",
+      "Aceite de oliva"
+    ],
+    "preparation": "Sofreír la cebolla y el pimiento a fuego lento, añadir la berenjena en taquitos (previamente salada y escurrida) y mezclar. Añadir el queso en daditos y los huevos batidos, y cocinar en la sartén con el mínimo aceite posible."
+  },
+  {
+    "id": "tortilla-de-calabacin",
+    "name": "Tortilla de calabacín",
+    "category": "cena-principal",
+    "ingredients": [
+      "Huevo",
+      "Calabacín",
+      "Aceite de oliva"
+    ],
+    "preparation": null
+  },
+  {
+    "id": "tortilla-de-esparragos",
+    "name": "Tortilla de espárragos",
+    "category": "cena-principal",
+    "ingredients": [
+      "Huevo",
+      "Espárragos trigueros",
+      "Aceite de oliva"
+    ],
+    "preparation": "Utilizar 1 huevo entero y 1 clara (aprovechar la yema para otro plato). Utilizar media cucharada de aceite."
+  },
+  {
+    "id": "tortilla-de-patata-ligerita-nutrimente",
+    "name": "Tortilla de patata ligerita Nutrimente",
+    "category": "cena-principal",
+    "ingredients": [
+      "Patatas",
+      "Huevo",
+      "Cebollas",
+      "Aceite de oliva"
+    ],
+    "preparation": "Cocer la patata y la cebolla en agua, trocear e incorporar el huevo batido. Cocinar en la sartén con unas gotas de aceite como una tortilla de patata convencional, algo menos consistente."
+  },
+  {
+    "id": "tortilla-francesa",
+    "name": "Tortilla francesa",
+    "category": "cena-principal",
+    "ingredients": [
+      "Huevo",
+      "Aceite de oliva"
+    ],
+    "preparation": null
+  },
+  {
+    "id": "tosta-de-aguacate-tomate-y-sesamo",
+    "name": "Tosta de aguacate, tomate y sésamo",
+    "category": "cena-principal",
+    "ingredients": [
+      "Aguacate",
+      "Tomate",
+      "Pan Integral",
+      "Sésamo"
+    ],
+    "preparation": null
+  },
+  {
+    "id": "tosta-de-gulas-y-rucula",
+    "name": "Tosta de gulas y rúcula",
+    "category": "cena-principal",
+    "ingredients": [
+      "Gulas",
+      "Pan Integral",
+      "Rúcula",
+      "Ajo"
+    ],
+    "preparation": "Saltear las gulas con ajitos y media cucharada de aceite. Colocar sobre una tostada integral y añadir rúcula por encima."
+  },
+  {
+    "id": "tosta-de-sardinas-con-tomate-en-rodajas",
+    "name": "Tosta de sardinas con tomate en rodajas",
+    "category": "cena-principal",
+    "ingredients": [
+      "Sardinas en aceite",
+      "Pan Integral",
+      "Tomate"
+    ],
+    "preparation": null
+  },
+  {
+    "id": "trucha-rellena-de-setas",
+    "name": "Trucha rellena de setas",
+    "category": "cena-principal",
+    "ingredients": [
+      "Trucha",
+      "Setas",
+      "Aceite de oliva",
+      "Vino blanco",
+      "Zumo de limón natural"
+    ],
+    "preparation": "Filetear la trucha y rellenar con las setas salteadas con ajitos, cebollino y perejil. Añadir zumo de limón y un poco de agua, envolver en papel de aluminio y hornear a 220°C unos 8 minutos."
+  },
+  {
+    "id": "libre-segun-indicaciones-en-consulta",
+    "name": "Libre (según indicaciones en consulta)",
+    "category": "almuerzo-libre",
+    "ingredients": [],
+    "preparation": "Esta comida es libre, teniendo en cuenta las recomendaciones nutricionales acordadas en consulta. Libre no quiere decir \"todo vale\", sino libertad para elegir dentro de las opciones aprendidas en consulta."
+  },
+  {
+    "id": "libre-segun-indicaciones-en-consulta-2",
+    "name": "Libre (según indicaciones en consulta)",
+    "category": "cena-libre",
+    "ingredients": [],
+    "preparation": "Esta comida es libre, teniendo en cuenta las recomendaciones nutricionales acordadas en consulta. Libre no quiere decir \"todo vale\", sino libertad para elegir dentro de las opciones aprendidas en consulta."
+  }
+]
