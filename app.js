@@ -17,7 +17,9 @@
     { id: "almuerzo-entrante", label: "Almuerzo · Entrante" },
     { id: "almuerzo-principal", label: "Almuerzo · Principal" },
     { id: "cena-entrante", label: "Cena · Entrante" },
-    { id: "cena-principal", label: "Cena · Principal" }
+    { id: "cena-principal", label: "Cena · Principal" },
+    { id: "almuerzo-libre", label: "Almuerzo · Libre" },
+    { id: "cena-libre", label: "Cena · Libre" }
   ];
   const CATEGORY_LABEL = Object.fromEntries(CATEGORIES.map(c => [c.id, c.label]));
   const LS_FAVS = "menu_favoritos";
@@ -88,16 +90,22 @@
     }[s]));
   }
 
+  function getRecipeIngredients(recipe) {
+    const raw = recipe.ingredients || recipe.ingredientes;
+    return Array.isArray(raw) ? raw : [];
+  }
+
   function recipeCardHTML(recipe, { preview = true } = {}) {
     const isFav = state.favorites.has(recipe.id);
-    const ingredientsPreview = recipe.ingredientes.slice(0, 4).join(" · ");
+    const ingredients = getRecipeIngredients(recipe);
+    const ingredientsPreview = ingredients.slice(0, 4).join(" · ");
     return `
       <a href="#/receta/${recipe.id}" class="recipe-card cat-${recipe.categoria}${isFav ? " is-fav" : ""}">
         <div class="row">
           <div>
             <span class="tag">${escapeHtml(CATEGORY_LABEL[recipe.categoria] || recipe.categoria)}</span>
             <h3>${escapeHtml(recipe.nombre)}</h3>
-            ${preview ? `<p class="ingredient-preview">${escapeHtml(ingredientsPreview)}</p>` : ""}
+            ${preview && ingredientsPreview ? `<p class="ingredient-preview">${escapeHtml(ingredientsPreview)}</p>` : ""}
           </div>
           <span class="fav-mark">
             <svg viewBox="0 0 24 24" width="20" height="20"><path d="M12 21s-6.7-4.35-9.4-8.28C.86 10.1 1.4 6.6 4.3 5.06 6.5 3.9 9 4.6 12 7.5c3-2.9 5.5-3.6 7.7-2.44 2.9 1.54 3.44 5.04 1.7 7.66C18.7 16.65 12 21 12 21z" fill="${isFav ? "currentColor" : "none"}" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>
@@ -209,7 +217,8 @@
       const matchesCat = state.recetasFilter === "todas" || r.categoria === state.recetasFilter;
       if (!matchesCat) return false;
       if (!q) return true;
-      const haystack = (r.nombre + " " + r.ingredientes.join(" ")).toLowerCase();
+      const ingredients = getRecipeIngredients(r);
+      const haystack = (r.nombre + " " + ingredients.join(" ")).toLowerCase();
       return haystack.includes(q);
     });
 
@@ -230,7 +239,6 @@
     document.getElementById("recipeSearch").addEventListener("input", e => {
       state.recetasQuery = e.target.value;
       renderRecetas();
-      // devuelve el foco al buscador tras el re-render
       const input = document.getElementById("recipeSearch");
       input.focus();
       input.setSelectionRange(input.value.length, input.value.length);
@@ -274,18 +282,24 @@
       });
     });
 
+    const ingredients = getRecipeIngredients(r);
+
     $view.innerHTML = `
       <div class="recipe-detail cat-${r.categoria}">
         <span class="tag">${escapeHtml(CATEGORY_LABEL[r.categoria] || r.categoria)}</span>
         <h2>${escapeHtml(r.nombre)}</h2>
 
-        <h3 class="detail-section-title">Ingredientes</h3>
-        <ul class="ingredient-list">
-          ${r.ingredientes.map(i => `<li>${escapeHtml(i)}</li>`).join("")}
-        </ul>
+        ${ingredients.length ? `
+          <h3 class="detail-section-title">Ingredientes</h3>
+          <ul class="ingredient-list">
+            ${ingredients.map(i => `<li>${escapeHtml(i)}</li>`).join("")}
+          </ul>
+        ` : ""}
 
-        <h3 class="detail-section-title">Elaboración</h3>
-        <div class="elaboracion-text">${escapeHtml(r.elaboracion).split("\n\n").map(p => `<p>${p}</p>`).join("")}</div>
+        ${r.elaboracion ? `
+          <h3 class="detail-section-title">Elaboración</h3>
+          <div class="elaboracion-text">${escapeHtml(r.elaboracion).split("\n\n").map(p => `<p>${p}</p>`).join("")}</div>
+        ` : ""}
 
         ${usedIn.length ? `<div class="used-in"><b>Aparece en:</b><br>${usedIn.map(escapeHtml).join("<br>")}</div>` : ""}
       </div>
