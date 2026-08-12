@@ -1,470 +1,207 @@
 {
+  "_comment": "Base de datos de planes semanales. Para añadir una semana nueva: 1) añade sus recetas en recipes.json, 2) copia un bloque {...} aquí con un 'id' único, dale un 'nombre' (ej. 'Semana 2') y rellena los 7 días con los 'id' de receta correspondientes a cada franja. Los días son fijos (lunes a domingo); el plan se repite cada semana según el día que toque, sin usar fechas concretas.",
   "weeks": [
     {
       "id": "semana-1",
-      "label": "Semana 1 (1 - 7 dic 2015)",
-      "startDate": "2015-12-01",
-      "endDate": "2015-12-07",
-      "days": {
+      "nombre": "Semana 1",
+      "dias": {
+        "lunes": {
+          "almuerzo": ["alino-de-tomates", "lentejas-estofadas-nutrimente"],
+          "cena": ["sopa-con-fideos-casera", "tortilla-francesa"]
+        },
         "martes": {
-          "almuerzo": {
-            "entrante": "arroz-integral",
-            "principal": "salto-de-verduras-con-salmon"
-          },
-          "cena": {
-            "entrante": "crema-de-verduras",
-            "principal": "revuelto-de-setas"
-          }
+          "almuerzo": ["arroz-integral", "salto-de-verduras-con-salmon"],
+          "cena": ["crema-de-verduras", "revuelto-de-setas"]
         },
         "miercoles": {
-          "almuerzo": {
-            "entrante": "alino-de-tomates",
-            "principal": "macarrones-integrales-con-verduritas"
-          },
-          "cena": {
-            "entrante": "sopa-con-fideos-casera",
-            "principal": "ensalada-de-espinacas-con-gulas"
-          }
+          "almuerzo": ["alino-de-tomates", "macarrones-integrales-con-verduritas"],
+          "cena": ["sopa-con-fideos-casera", "ensalada-de-espinacas-con-gulas"]
         },
         "jueves": {
-          "almuerzo": {
-            "entrante": "parrillada-de-verduras-con-romero",
-            "principal": "merluza-a-la-plancha"
-          },
-          "cena": {
-            "entrante": "pure-de-calabaza",
-            "principal": "hamburguesa-ternera-plancha"
-          }
+          "almuerzo": ["parrillada-de-verduras-con-romero", "merluza-a-la-plancha"],
+          "cena": ["pure-de-calabaza", "hamburguesa-ternera-plancha"]
         },
         "viernes": {
-          "almuerzo": {
-            "entrante": null,
-            "principal": "libre-segun-indicaciones-en-consulta"
-          },
-          "cena": {
-            "entrante": "ensalada-mixta-con-atun",
-            "principal": "mejillones-hervidos-a-la-marinera"
-          }
+          "almuerzo": [null, "libre-segun-indicaciones-en-consulta"],
+          "cena": ["ensalada-mixta-con-atun", "mejillones-hervidos-a-la-marinera"]
         },
         "sabado": {
-          "almuerzo": {
-            "entrante": "ensalada-mixta-de-brotes-tiernos",
-            "principal": "pez-espada-plancha"
-          },
-          "cena": {
-            "entrante": null,
-            "principal": "libre-segun-indicaciones-en-consulta-2"
-          }
+          "almuerzo": ["ensalada-mixta-de-brotes-tiernos", "pez-espada-plancha"],
+          "cena": [null, "libre-segun-indicaciones-en-consulta-2"]
         },
         "domingo": {
-          "almuerzo": {
-            "entrante": "arroz-integral",
-            "principal": "wok-de-pollo-con-verduras"
-          },
-          "cena": {
-            "entrante": "crema-de-calabacin",
-            "principal": "picoteo-embutido-y-queso-nutrimente"
-          }
-        },
-        "lunes": {
-          "almuerzo": {
-            "entrante": "alino-de-tomates",
-            "principal": "lentejas-estofadas-nutrimente"
-          },
-          "cena": {
-            "entrante": "sopa-con-fideos-casera",
-            "principal": "tortilla-francesa"
-          }
+          "almuerzo": ["arroz-integral", "wok-de-pollo-con-verduras"],
+          "cena": ["crema-de-calabacin", "picoteo-embutido-y-queso-nutrimente"]
         }
       }
     },
     {
       "id": "semana-2",
-      "label": "Semana 2 (15 - 21 dic 2015)",
-      "startDate": "2015-12-15",
-      "endDate": "2015-12-21",
-      "days": {
+      "nombre": "Semana 2",
+      "dias": {
+        "lunes": {
+          "almuerzo": ["alino-de-tomates", "potaje-de-alubias-con-verduras"],
+          "cena": ["judias-verdes-con-huevo-duro", "atun-al-natural"]
+        },
         "martes": {
-          "almuerzo": {
-            "entrante": "parrillada-de-verduras-con-romero",
-            "principal": "atun-encebollado-nutrimente"
-          },
-          "cena": {
-            "entrante": "sopa-con-fideos-casera",
-            "principal": "tortilla-de-calabacin"
-          }
+          "almuerzo": ["parrillada-de-verduras-con-romero", "atun-encebollado-nutrimente"],
+          "cena": ["sopa-con-fideos-casera", "tortilla-de-calabacin"]
         },
         "miercoles": {
-          "almuerzo": {
-            "entrante": "alino-de-tomates",
-            "principal": "arroz-int-con-pollo-calabacin-y-curry"
-          },
-          "cena": {
-            "entrante": "sopa-con-fideos-casera",
-            "principal": "ensalada-de-calabacin-y-salmon"
-          }
+          "almuerzo": ["alino-de-tomates", "arroz-int-con-pollo-calabacin-y-curry"],
+          "cena": ["sopa-con-fideos-casera", "ensalada-de-calabacin-y-salmon"]
         },
         "jueves": {
-          "almuerzo": {
-            "entrante": "brocoli-esparragado",
-            "principal": "bacalao-a-la-plancha"
-          },
-          "cena": {
-            "entrante": "pure-de-verduras",
-            "principal": "gulas-salteadas-con-setas"
-          }
+          "almuerzo": ["brocoli-esparragado", "bacalao-a-la-plancha"],
+          "cena": ["pure-de-verduras", "gulas-salteadas-con-setas"]
         },
         "viernes": {
-          "almuerzo": {
-            "entrante": null,
-            "principal": "libre-segun-indicaciones-en-consulta"
-          },
-          "cena": {
-            "entrante": "ensalada-de-canonigos-y-nueces",
-            "principal": "pulpo-con-pimenton"
-          }
+          "almuerzo": [null, "libre-segun-indicaciones-en-consulta"],
+          "cena": ["ensalada-de-canonigos-y-nueces", "pulpo-con-pimenton"]
         },
         "sabado": {
-          "almuerzo": {
-            "entrante": "ensalada-de-cogollos-y-tomates",
-            "principal": "atun-a-la-plancha"
-          },
-          "cena": {
-            "entrante": null,
-            "principal": "libre-segun-indicaciones-en-consulta-2"
-          }
+          "almuerzo": ["ensalada-de-cogollos-y-tomates", "atun-a-la-plancha"],
+          "cena": [null, "libre-segun-indicaciones-en-consulta-2"]
         },
         "domingo": {
-          "almuerzo": {
-            "entrante": "arroz-integral",
-            "principal": "salteado-de-berenjenas-con-pollo-nutrimente"
-          },
-          "cena": {
-            "entrante": "pure-de-verduras",
-            "principal": "tosta-de-sardinas-con-tomate-en-rodajas"
-          }
-        },
-        "lunes": {
-          "almuerzo": {
-            "entrante": "alino-de-tomates",
-            "principal": "potaje-de-alubias-con-verduras"
-          },
-          "cena": {
-            "entrante": "judias-verdes-con-huevo-duro",
-            "principal": "atun-al-natural"
-          }
+          "almuerzo": ["arroz-integral", "salteado-de-berenjenas-con-pollo-nutrimente"],
+          "cena": ["pure-de-verduras", "tosta-de-sardinas-con-tomate-en-rodajas"]
         }
       }
     },
     {
       "id": "semana-3",
-      "label": "Semana 3 (8 - 14 ene 2016)",
-      "startDate": "2016-01-08",
-      "endDate": "2016-01-14",
-      "days": {
+      "nombre": "Semana 3",
+       "dias": {
+         "lunes": {
+           "almuerzo": ["alino-de-tomates", "garbanzos-con-mango-nutrimente"],
+           "cena": ["pure-de-verduras", "gulas-al-ajillo"]
+         },
+         "martes": {
+           "almuerzo": ["ensalada-de-canonigos", "guisantes-con-choco"],
+           "cena": ["sopa-con-fideos-casera", "revuelto-de-setas"]
+         },
+         "miercoles": {
+           "almuerzo": ["ensalada-de-canonigos", "muslitos-de-pollo-al-horno-con-patata-y-calabacines"],
+           "cena": ["pure-de-verduras", "gulas-al-ajillo"]
+         },
+         "jueves": {
+           "almuerzo": ["ensalada-coleslaw", "salmon-a-la-plancha"],
+           "cena": ["consome", "pavo-y-pina-a-la-plancha-nutrimente"]
+         },
         "viernes": {
-          "almuerzo": {
-            "entrante": null,
-            "principal": "libre-segun-indicaciones-en-consulta"
-          },
-          "cena": {
-            "entrante": "ensalada-de-cogollos-y-tomates",
-            "principal": "hamburguesa-casera-con-cebolla-y-champinones"
-          }
+          "almuerzo": [null, "libre-segun-indicaciones-en-consulta"],
+          "cena": ["ensalada-de-cogollos-y-tomates", "hamburguesa-casera-con-cebolla-y-champinones"]
         },
         "sabado": {
-          "almuerzo": {
-            "entrante": "ensalada-de-tomate-y-aguacate",
-            "principal": "bacalao-a-la-plancha"
-          },
-          "cena": {
-            "entrante": "pure-de-verduras",
-            "principal": "tortilla-de-esparragos"
-          }
+          "almuerzo": ["ensalada-de-tomate-y-aguacate", "bacalao-a-la-plancha"],
+          "cena": ["pure-de-verduras", "tortilla-de-esparragos"]
         },
         "domingo": {
-          "almuerzo": {
-            "entrante": "ensalada-de-canonigos",
-            "principal": "pasta-integral-con-cebollita-y-york"
-          },
-          "cena": {
-            "entrante": "pure-de-verduras",
-            "principal": "corazones-de-alcachofas-con-salmon-y-queso"
-          }
-        },
-        "lunes": {
-          "almuerzo": {
-            "entrante": "alino-de-tomates",
-            "principal": "garbanzos-con-mango-nutrimente"
-          },
-          "cena": {
-            "entrante": "pure-de-verduras",
-            "principal": "gulas-al-ajillo"
-          }
-        },
-        "martes": {
-          "almuerzo": {
-            "entrante": "ensalada-de-canonigos",
-            "principal": "guisantes-con-choco"
-          },
-          "cena": {
-            "entrante": "sopa-con-fideos-casera",
-            "principal": "revuelto-de-setas"
-          }
-        },
-        "miercoles": {
-          "almuerzo": {
-            "entrante": "ensalada-de-canonigos",
-            "principal": "muslitos-de-pollo-al-horno-con-patata-y-calabacines"
-          },
-          "cena": {
-            "entrante": "pure-de-verduras",
-            "principal": "gulas-al-ajillo"
-          }
-        },
-        "jueves": {
-          "almuerzo": {
-            "entrante": "ensalada-coleslaw",
-            "principal": "salmon-a-la-plancha"
-          },
-          "cena": {
-            "entrante": "consome",
-            "principal": "pavo-y-pina-a-la-plancha-nutrimente"
-          }
+          "almuerzo": ["ensalada-de-canonigos", "pasta-integral-con-cebollita-y-york"],
+          "cena": ["pure-de-verduras", "corazones-de-alcachofas-con-salmon-y-queso"]
         }
       }
     },
     {
       "id": "semana-4",
-      "label": "Semana 4 (21 - 27 ene 2016)",
-      "startDate": "2016-01-21",
-      "endDate": "2016-01-27",
-      "days": {
-        "jueves": {
-          "almuerzo": {
-            "entrante": "ensalada-mixta-de-brotes-tiernos",
-            "principal": "estofado-de-legumbre-de-soja"
-          },
-          "cena": {
-            "entrante": "pure-de-verduras",
-            "principal": "revuelto-de-ajetes-espinacas-y-gambas"
-          }
-        },
-        "viernes": {
-          "almuerzo": {
-            "entrante": null,
-            "principal": "libre-segun-indicaciones-en-consulta"
-          },
-          "cena": {
-            "entrante": "alino-de-pimientos-asados-con-cebolla",
-            "principal": "pastel-de-berenjena-nutrimente"
-          }
-        },
-        "sabado": {
-          "almuerzo": {
-            "entrante": "ensalada-sencilla",
-            "principal": "combinado-de-lenguado-brocoli-y-couscous"
-          },
-          "cena": {
-            "entrante": null,
-            "principal": "libre-segun-indicaciones-en-consulta-2"
-          }
-        },
-        "domingo": {
-          "almuerzo": {
-            "entrante": "alino-de-tomates",
-            "principal": "risotto-de-quinoa-y-calabaza-nutrimente"
-          },
-          "cena": {
-            "entrante": "consome",
-            "principal": "ensalada-tropical"
-          }
-        },
+      "nombre": "Semana 4",
+      "dias": {
         "lunes": {
-          "almuerzo": {
-            "entrante": "ensalada-de-canonigos",
-            "principal": "fabada-con-pulpo-nutrimente"
-          },
-          "cena": {
-            "entrante": "alino-de-tomates",
-            "principal": "tortilla-de-esparragos"
-          }
+          "almuerzo": ["ensalada-de-canonigos", "fabada-con-pulpo-nutrimente"],
+          "cena": ["alino-de-tomates", "tortilla-de-esparragos"]
         },
         "martes": {
-          "almuerzo": {
-            "entrante": "calabacines-con-oregano",
-            "principal": "pollo-en-salsa-de-soja-naranja-y-miel"
-          },
-          "cena": {
-            "entrante": "pure-de-brocoli-y-zanahoria",
-            "principal": "atun-a-la-plancha"
-          }
+          "almuerzo": ["calabacines-con-oregano", "pollo-en-salsa-de-soja-naranja-y-miel"],
+          "cena": ["pure-de-brocoli-y-zanahoria", "atun-a-la-plancha"]
         },
         "miercoles": {
-          "almuerzo": {
-            "entrante": "ensalada-de-canonigos-con-pera-y-avellanas",
-            "principal": "pez-espada-plancha"
-          },
-          "cena": {
-            "entrante": "consome",
-            "principal": "ensalada-de-niza"
-          }
+          "almuerzo": ["ensalada-de-canonigos-con-pera-y-avellanas", "pez-espada-plancha"],
+          "cena": ["consome", "ensalada-de-niza"]
+        },
+        "jueves": {
+          "almuerzo": ["ensalada-mixta-de-brotes-tiernos", "estofado-de-legumbre-de-soja"],
+          "cena": ["pure-de-verduras", "revuelto-de-ajetes-espinacas-y-gambas"]
+        },
+        "viernes": {
+          "almuerzo": [null, "libre-segun-indicaciones-en-consulta"],
+          "cena": ["alino-de-pimientos-asados-con-cebolla", "pastel-de-berenjena-nutrimente"]
+        },
+        "sabado": {
+          "almuerzo": ["ensalada-sencilla", "combinado-de-lenguado-brocoli-y-couscous"],
+          "cena": [null, "libre-segun-indicaciones-en-consulta-2"]
+        },
+        "domingo": {
+          "almuerzo": ["alino-de-tomates", "risotto-de-quinoa-y-calabaza-nutrimente"],
+          "cena": ["consome", "ensalada-tropical"]
         }
       }
     },
     {
       "id": "semana-5",
-      "label": "Semana 5 (4 - 10 feb 2016)",
-      "startDate": "2016-02-04",
-      "endDate": "2016-02-10",
-      "days": {
-        "jueves": {
-          "almuerzo": {
-            "entrante": null,
-            "principal": "ensalada-de-alubias-con-pavo-judias-verdes-y-tomate"
-          },
-          "cena": {
-            "entrante": null,
-            "principal": "crema-de-calabaza-con-setas-al-ajillo-y-huevo-poche"
-          }
-        },
-        "viernes": {
-          "almuerzo": {
-            "entrante": null,
-            "principal": "libre-segun-indicaciones-en-consulta"
-          },
-          "cena": {
-            "entrante": "alino-de-pimientos-asados-con-cebolla",
-            "principal": "roulades-de-espinacas-con-queso-y-pavo"
-          }
-        },
-        "sabado": {
-          "almuerzo": {
-            "entrante": null,
-            "principal": "salmon-en-lecho-de-espinacas-y-salsa-de-yogur"
-          },
-          "cena": {
-            "entrante": null,
-            "principal": "libre-segun-indicaciones-en-consulta-2"
-          }
-        },
-        "domingo": {
-          "almuerzo": {
-            "entrante": "alino-de-tomates",
-            "principal": "couscous-con-pollo-y-verduras-nutrimente"
-          },
-          "cena": {
-            "entrante": "consome",
-            "principal": "tosta-de-gulas-y-rucula"
-          }
-        },
+      "nombre": "Semana 5",
+      "dias": {
         "lunes": {
-          "almuerzo": {
-            "entrante": "ensalada-de-canonigos",
-            "principal": "habas-salteadas-con-jamon"
-          },
-          "cena": {
-            "entrante": "alino-de-tomates",
-            "principal": "revuelto-de-ajetes-trigueros-y-piquillo"
-          }
+          "almuerzo": ["ensalada-de-canonigos", "habas-salteadas-con-jamon"],
+          "cena": ["alino-de-tomates", "revuelto-de-ajetes-trigueros-y-piquillo"]
         },
         "martes": {
-          "almuerzo": {
-            "entrante": "salteado-de-berenjenas-y-calabacines",
-            "principal": "pollo-al-curry"
-          },
-          "cena": {
-            "entrante": "pure-de-verduras",
-            "principal": "trucha-rellena-de-setas"
-          }
+          "almuerzo": ["salteado-de-berenjenas-y-calabacines", "pollo-al-curry"],
+          "cena": ["pure-de-verduras", "trucha-rellena-de-setas"]
         },
         "miercoles": {
-          "almuerzo": {
-            "entrante": "tartar-de-remolacha-y-aguacate",
-            "principal": "bacalao-a-la-plancha"
-          },
-          "cena": {
-            "entrante": "consome",
-            "principal": "ensalada-california"
-          }
+          "almuerzo": ["tartar-de-remolacha-y-aguacate", "bacalao-a-la-plancha"],
+          "cena": ["consome", "ensalada-california"]
+        },
+        "jueves": {
+          "almuerzo": [null, "ensalada-de-alubias-con-pavo-judias-verdes-y-tomate"],
+          "cena": [null, "crema-de-calabaza-con-setas-al-ajillo-y-huevo-poche"]
+        },
+        "viernes": {
+          "almuerzo": [null, "libre-segun-indicaciones-en-consulta"],
+          "cena": ["alino-de-pimientos-asados-con-cebolla", "roulades-de-espinacas-con-queso-y-pavo"]
+        },
+        "sabado": {
+          "almuerzo": [null, "salmon-en-lecho-de-espinacas-y-salsa-de-yogur"],
+          "cena": [null, "libre-segun-indicaciones-en-consulta-2"]
+        },
+        "domingo": {
+          "almuerzo": ["alino-de-tomates", "couscous-con-pollo-y-verduras-nutrimente"],
+          "cena": ["consome", "tosta-de-gulas-y-rucula"]
         }
       }
     },
     {
       "id": "semana-6",
-      "label": "Semana 6 (25 feb - 2 mar 2016)",
-      "startDate": "2016-02-25",
-      "endDate": "2016-03-02",
-      "days": {
-        "jueves": {
-          "almuerzo": {
-            "entrante": "ensalada-de-canonigos",
-            "principal": "lentejas-estofadas-nutrimente"
-          },
-          "cena": {
-            "entrante": "alino-de-pimientos-asados-con-cebolla",
-            "principal": "tortilla-de-patata-ligerita-nutrimente"
-          }
-        },
-        "viernes": {
-          "almuerzo": {
-            "entrante": null,
-            "principal": "libre-segun-indicaciones-en-consulta"
-          },
-          "cena": {
-            "entrante": "ensalada-mixta-de-brotes-tiernos",
-            "principal": "hamburguesa-de-espinaca-y-salmon-sf"
-          }
-        },
-        "sabado": {
-          "almuerzo": {
-            "entrante": "guarnicion-de-couscous",
-            "principal": "pez-espada-en-salsa-de-naranja-y-almendra"
-          },
-          "cena": {
-            "entrante": null,
-            "principal": "libre-segun-indicaciones-en-consulta-2"
-          }
-        },
-        "domingo": {
-          "almuerzo": {
-            "entrante": "alino-de-tomates",
-            "principal": "wok-de-verduras-y-pollo-con-fideos-chinos"
-          },
-          "cena": {
-            "entrante": "pate-de-berenjena-y-tomate-seco-nutrimente",
-            "principal": "tosta-de-aguacate-tomate-y-sesamo"
-          }
-        },
+      "nombre": "Semana 6",
+      "dias": {
         "lunes": {
-          "almuerzo": {
-            "entrante": null,
-            "principal": "ensalada-de-alubias-con-aguacate-y-anchoas-nutrimente"
-          },
-          "cena": {
-            "entrante": "alino-de-tomates",
-            "principal": "tortilla-de-berenjena-queso-y-pimiento"
-          }
+          "almuerzo": [null, "ensalada-de-alubias-con-aguacate-y-anchoas-nutrimente"],
+          "cena": ["alino-de-tomates", "tortilla-de-berenjena-queso-y-pimiento"]
         },
         "martes": {
-          "almuerzo": {
-            "entrante": "guarnicion-de-couscous",
-            "principal": "albondigas-de-pollo-con-hierbabuena"
-          },
-          "cena": {
-            "entrante": "sopa-con-fideos-casera",
-            "principal": "ceviche-de-atun"
-          }
+          "almuerzo": ["guarnicion-de-couscous", "albondigas-de-pollo-con-hierbabuena"],
+          "cena": ["sopa-con-fideos-casera", "ceviche-de-atun"]
         },
         "miercoles": {
-          "almuerzo": {
-            "entrante": "guisantes-salteados-con-toque-de-curcuma",
-            "principal": "merluza-a-la-plancha"
-          },
-          "cena": {
-            "entrante": "sopa-con-fideos-casera",
-            "principal": "ensalada-de-calabaza-y-vinagreta-de-tomillo"
-          }
+          "almuerzo": ["guisantes-salteados-con-toque-de-curcuma", "merluza-a-la-plancha"],
+          "cena": ["sopa-con-fideos-casera", "ensalada-de-calabaza-y-vinagreta-de-tomillo"]
+        },
+        "jueves": {
+          "almuerzo": ["ensalada-de-canonigos", "lentejas-estofadas-nutrimente"],
+          "cena": ["alino-de-pimientos-asados-con-cebolla", "tortilla-de-patata-ligerita-nutrimente"]
+        },
+        "viernes": {
+          "almuerzo": [null, "libre-segun-indicaciones-en-consulta"],
+          "cena": ["ensalada-mixta-de-brotes-tiernos", "hamburguesa-de-espinaca-y-salmon-sf"]
+        },
+        "sabado": {
+          "almuerzo": ["guarnicion-de-couscous", "pez-espada-en-salsa-de-naranja-y-almendra"],
+          "cena": [null, "libre-segun-indicaciones-en-consulta-2"]
+        },
+        "domingo": {
+          "almuerzo": ["alino-de-tomates", "wok-de-verduras-y-pollo-con-fideos-chinos"],
+          "cena": ["pate-de-berenjena-y-tomate-seco-nutrimente", "tosta-de-aguacate-tomate-y-sesamo"]
         }
       }
     }
