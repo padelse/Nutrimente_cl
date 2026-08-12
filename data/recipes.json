@@ -22,7 +22,7 @@
     "ingredients": [
       "Arroz integral"
     ],
-    "elaboracion": null
+    "elaboracion": ""
   },
   {
     "id": "brocoli-esparragado",
@@ -86,7 +86,7 @@
       "Tomate",
       "Aceite de oliva"
     ],
-    "elaboracion": null
+    "elaboracion": ""
   },
   {
     "id": "ensalada-de-tomate-y-aguacate",
@@ -100,7 +100,7 @@
       "Aceite de oliva",
       "Vinagre Balsámico Módena"
     ],
-    "elaboracion": null
+    "elaboracion": ""
   },
   {
     "id": "ensalada-mixta-de-brotes-tiernos",
@@ -125,7 +125,7 @@
       "Mezclum lechugas",
       "Aceite de oliva"
     ],
-    "elaboracion": null
+    "elaboracion": ""
   },
   {
     "id": "guarnicion-de-couscous",
@@ -482,7 +482,7 @@
       "Merluza",
       "Aceite de oliva"
     ],
-    "elaboracion": null
+    "elaboracion": ""
   },
   {
     "id": "muslitos-de-pollo-al-horno-con-patata-y-calabacines",
@@ -763,7 +763,7 @@
       "Aceite de oliva",
       "Vinagre de manzana"
     ],
-    "elaboracion": null
+    "elaboracion": ""
   },
   {
     "id": "judias-verdes-con-huevo-duro",
@@ -857,7 +857,7 @@
     "ingredients": [
       "Atún al natural"
     ],
-    "elaboracion": null
+    "elaboracion": ""
   },
   {
     "id": "ceviche-de-atun",
@@ -1213,7 +1213,7 @@
       "Calabacín",
       "Aceite de oliva"
     ],
-    "elaboracion": null
+    "elaboracion": ""
   },
   {
     "id": "tortilla-de-esparragos",
@@ -1249,7 +1249,7 @@
       "Huevo",
       "Aceite de oliva"
     ],
-    "elaboracion": null
+    "elaboracion": ""
   },
   {
     "id": "tosta-de-aguacate-tomate-y-sesamo",
@@ -1262,7 +1262,7 @@
       "Pan Integral",
       "Sésamo"
     ],
-    "elaboracion": null
+    "elaboracion": ""
   },
   {
     "id": "tosta-de-gulas-y-rucula",
@@ -1287,7 +1287,7 @@
       "Pan Integral",
       "Tomate"
     ],
-    "elaboracion": null
+    "elaboracion": ""
   },
   {
     "id": "trucha-rellena-de-setas",
@@ -1308,7 +1308,7 @@
     "nombre": "Libre (según indicaciones en consulta)",
     "categoria": "almuerzo-libre",
     "semana": "Semana 1",
-    "ingredients": [],
+    "ingredients": [""],
     "elaboracion": "Esta comida es libre, teniendo en cuenta las recomendaciones nutricionales acordadas en consulta. Libre no quiere decir \"todo vale\", sino libertad para elegir dentro de las opciones aprendidas en consulta."
   },
   {
@@ -1316,7 +1316,7 @@
     "nombre": "Libre (según indicaciones en consulta)",
     "categoria": "cena-libre",
     "semana": "Semana 1",
-    "ingredients": [],
+    "ingredients": [""],
     "elaboracion": "Esta comida es libre, teniendo en cuenta las recomendaciones nutricionales acordadas en consulta. Libre no quiere decir \"todo vale\", sino libertad para elegir dentro de las opciones aprendidas en consulta."
   }
 ]
