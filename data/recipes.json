@@ -18,6 +18,7 @@
     "id": "arroz-integral",
     "nombre": "Arroz integral",
     "categoria": "almuerzo-entrante",
+    "semana": "Semana 1",
     "ingredients": [
       "Arroz integral"
     ],
@@ -27,6 +28,7 @@
     "id": "brocoli-esparragado",
     "nombre": "Brócoli esparragado",
     "categoria": "almuerzo-entrante",
+    "semana": "Semana 1",
     "ingredients": [
       "Brócoli",
       "Aceite de oliva",
@@ -39,6 +41,7 @@
     "id": "calabacines-con-oregano",
     "nombre": "Calabacines con orégano",
     "categoria": "almuerzo-entrante",
+    "semana": "Semana 1",
     "ingredients": [
       "Calabacín",
       "Aceite de oliva",
@@ -50,6 +53,7 @@
     "id": "ensalada-de-canonigos",
     "nombre": "Ensalada de canónigos",
     "categoria": "almuerzo-entrante",
+    "semana": "Semana 1",
     "ingredients": [
       "Tomate",
       "Canónigos",
@@ -63,6 +67,7 @@
     "id": "ensalada-de-canonigos-con-pera-y-avellanas",
     "nombre": "Ensalada de canónigos con pera y avellanas",
     "categoria": "almuerzo-entrante",
+    "semana": "Semana 1",
     "ingredients": [
       "Peras",
       "Canónigos",
@@ -75,6 +80,7 @@
     "id": "ensalada-de-cogollos-y-tomates",
     "nombre": "Ensalada de cogollos y tomates",
     "categoria": "almuerzo-entrante",
+    "semana": "Semana 1",
     "ingredients": [
       "Cogollos",
       "Tomate",
@@ -86,6 +92,7 @@
     "id": "ensalada-de-tomate-y-aguacate",
     "nombre": "Ensalada de tomate y aguacate",
     "categoria": "almuerzo-entrante",
+    "semana": "Semana 1",
     "ingredients": [
       "Tomate",
       "Aguacate",
@@ -99,6 +106,7 @@
     "id": "ensalada-mixta-de-brotes-tiernos",
     "nombre": "Ensalada mixta de brotes tiernos",
     "categoria": "almuerzo-entrante",
+    "semana": "Semana 1",
     "ingredients": [
       "Mezclum lechugas",
       "Zanahorias",
@@ -112,6 +120,7 @@
     "id": "ensalada-sencilla",
     "nombre": "Ensalada sencilla",
     "categoria": "almuerzo-entrante",
+    "semana": "Semana 1",
     "ingredients": [
       "Mezclum lechugas",
       "Aceite de oliva"
@@ -122,6 +131,7 @@
     "id": "guarnicion-de-couscous",
     "nombre": "Guarnición de couscous",
     "categoria": "almuerzo-entrante",
+    "semana": "Semana 1",
     "ingredients": [
       "Sémola de trigo",
       "Aceite de oliva"
@@ -132,6 +142,7 @@
     "id": "guisantes-salteados-con-toque-de-curcuma",
     "nombre": "Guisantes salteados con toque de cúrcuma",
     "categoria": "almuerzo-entrante",
+    "semana": "Semana 1",
     "ingredients": [
       "Guisantes frescos o congelados",
       "Cebollas",
@@ -146,6 +157,7 @@
     "id": "parrillada-de-verduras-con-romero",
     "nombre": "Parrillada de verduras con romero",
     "categoria": "almuerzo-entrante",
+    "semana": "Semana 1",
     "ingredients": [
       "Berenjenas",
       "Tomate",
@@ -160,6 +172,7 @@
     "id": "salteado-de-berenjenas-y-calabacines",
     "nombre": "Salteado de berenjenas y calabacines",
     "categoria": "almuerzo-entrante",
+    "semana": "Semana 1",
     "ingredients": [
       "Calabacín",
       "Berenjenas",
@@ -176,6 +189,7 @@
     "id": "tartar-de-remolacha-y-aguacate",
     "nombre": "Tartar de remolacha y aguacate",
     "categoria": "almuerzo-entrante",
+    "semana": "Semana 1",
     "ingredients": [
       "Remolacha",
       "Aguacate",
@@ -193,6 +207,7 @@
     "id": "wok-de-pollo-con-verduras",
     "nombre": "\"Wok\" de pollo con verduras",
     "categoria": "almuerzo-principal",
+    "semana": "Semana 1",
     "ingredients": [
       "Pollo - pechuga",
       "Pimiento",
@@ -207,6 +222,7 @@
     "id": "albondigas-de-pollo-con-hierbabuena",
     "nombre": "Albóndigas de pollo con hierbabuena",
     "categoria": "almuerzo-principal",
+    "semana": "Semana 1",
     "ingredients": [
       "Champiñones",
       "Carne picada pavo y pollo",
@@ -222,6 +238,7 @@
     "id": "arroz-int-con-pollo-calabacin-y-curry",
     "nombre": "Arroz int. con pollo, calabacín y curry",
     "categoria": "almuerzo-principal",
+    "semana": "Semana 1",
     "ingredients": [
       "Pollo - pechuga",
       "Calabacín",
@@ -237,6 +254,7 @@
     "id": "atun-a-la-plancha",
     "nombre": "Atún a la plancha",
     "categoria": "almuerzo-principal",
+    "semana": "Semana 1",
     "ingredients": [
       "Atún fresco",
       "Aceite de oliva"
@@ -247,6 +265,7 @@
     "id": "atun-encebollado-nutrimente",
     "nombre": "Atún encebollado Nutrimente",
     "categoria": "almuerzo-principal",
+    "semana": "Semana 1",
     "ingredients": [
       "Atún fresco",
       "Cebollas",
@@ -260,6 +279,7 @@
     "id": "bacalao-a-la-plancha",
     "nombre": "Bacalao a la plancha",
     "categoria": "almuerzo-principal",
+    "semana": "Semana 1",
     "ingredients": [
       "Bacalao fresco",
       "Aceite de oliva"
@@ -270,6 +290,7 @@
     "id": "combinado-de-lenguado-brocoli-y-couscous",
     "nombre": "Combinado de lenguado, brócoli y couscous",
     "categoria": "almuerzo-principal",
+    "semana": "Semana 1",
     "ingredients": [
       "Lenguado",
       "Brócoli",
@@ -282,6 +303,7 @@
     "id": "couscous-con-pollo-y-verduras-nutrimente",
     "nombre": "Couscous con pollo y verduras Nutrimente",
     "categoria": "almuerzo-principal",
+    "semana": "Semana 1",
     "ingredients": [
       "Pollo - pechuga",
       "Calabacín",
@@ -299,6 +321,7 @@
     "id": "ensalada-coleslaw",
     "nombre": "Ensalada Coleslaw",
     "categoria": "almuerzo-principal",
+    "semana": "Semana 1",
     "ingredients": [
       "Manzanas",
       "Col",
@@ -313,6 +336,7 @@
     "id": "ensalada-de-alubias-con-aguacate-y-anchoas-nutrimente",
     "nombre": "Ensalada de alubias con aguacate y anchoas Nutrimente",
     "categoria": "almuerzo-principal",
+    "semana": "Semana 1",
     "ingredients": [
       "Alubias Secas",
       "Aguacate",
@@ -326,6 +350,7 @@
     "id": "ensalada-de-alubias-con-pavo-judias-verdes-y-tomate",
     "nombre": "Ensalada de alubias con pavo, judías verdes y tomate",
     "categoria": "almuerzo-principal",
+    "semana": "Semana 1",
     "ingredients": [
       "Alubias Secas",
       "Pechuga de pavo embutido",
@@ -340,6 +365,7 @@
     "id": "estofado-de-legumbre-de-soja",
     "nombre": "Estofado de legumbre de soja",
     "categoria": "almuerzo-principal",
+    "semana": "Semana 1",
     "ingredients": [
       "Soja habas",
       "Cebollas",
@@ -356,6 +382,7 @@
     "id": "fabada-con-pulpo-nutrimente",
     "nombre": "Fabada con pulpo Nutrimente",
     "categoria": "almuerzo-principal",
+    "semana": "Semana 1",
     "ingredients": [
       "Pulpo",
       "Alubias Secas",
@@ -372,6 +399,7 @@
     "id": "garbanzos-con-mango-nutrimente",
     "nombre": "Garbanzos con mango Nutrimente",
     "categoria": "almuerzo-principal",
+    "semana": "Semana 1",
     "ingredients": [
       "Garbanzos",
       "Mango",
@@ -389,6 +417,7 @@
     "id": "guisantes-con-choco",
     "nombre": "Guisantes con choco",
     "categoria": "almuerzo-principal",
+    "semana": "Semana 1",
     "ingredients": [
       "Sepia o choco",
       "Guisantes frescos o congelados",
@@ -401,6 +430,7 @@
     "id": "habas-salteadas-con-jamon",
     "nombre": "Habas salteadas con jamón",
     "categoria": "almuerzo-principal",
+    "semana": "Semana 1",
     "ingredients": [
       "Habas frescas",
       "Cebollas",
@@ -413,6 +443,7 @@
     "id": "lentejas-estofadas-nutrimente",
     "nombre": "Lentejas estofadas Nutrimente",
     "categoria": "almuerzo-principal",
+    "semana": "Semana 1",
     "ingredients": [
       "Lentejas",
       "Zanahorias",
@@ -430,6 +461,7 @@
     "id": "macarrones-integrales-con-verduritas",
     "nombre": "Macarrones integrales con verduritas",
     "categoria": "almuerzo-principal",
+    "semana": "Semana 1",
     "ingredients": [
       "Pasta integral",
       "Tomate",
@@ -445,6 +477,7 @@
     "id": "merluza-a-la-plancha",
     "nombre": "Merluza a la plancha",
     "categoria": "almuerzo-principal",
+    "semana": "Semana 1",
     "ingredients": [
       "Merluza",
       "Aceite de oliva"
@@ -455,6 +488,7 @@
     "id": "muslitos-de-pollo-al-horno-con-patata-y-calabacines",
     "nombre": "Muslitos de pollo al horno con patata y calabacines",
     "categoria": "almuerzo-principal",
+    "semana": "Semana 1",
     "ingredients": [
       "Pollo - muslo",
       "Patatas",
@@ -469,6 +503,7 @@
     "id": "pasta-integral-con-cebollita-y-york",
     "nombre": "Pasta integral con cebollita y york",
     "categoria": "almuerzo-principal",
+    "semana": "Semana 1",
     "ingredients": [
       "Pasta integral",
       "Cebollas",
@@ -484,6 +519,7 @@
     "id": "pez-espada-en-salsa-de-naranja-y-almendra",
     "nombre": "Pez espada en salsa de naranja y almendra",
     "categoria": "almuerzo-principal",
+    "semana": "Semana 1",
     "ingredients": [
       "Pez Espada (Emperador)",
       "Calabacín",
@@ -500,6 +536,7 @@
     "id": "pez-espada-plancha",
     "nombre": "Pez espada plancha",
     "categoria": "almuerzo-principal",
+    "semana": "Semana 1",
     "ingredients": [
       "Pez Espada (Emperador)",
       "Aceite de oliva"
@@ -510,6 +547,7 @@
     "id": "pollo-al-curry",
     "nombre": "Pollo al curry",
     "categoria": "almuerzo-principal",
+    "semana": "Semana 1",
     "ingredients": [
       "Pollo - pechuga",
       "Manzanas",
@@ -527,6 +565,7 @@
     "id": "pollo-en-salsa-de-soja-naranja-y-miel",
     "nombre": "Pollo en salsa de soja, naranja y miel",
     "categoria": "almuerzo-principal",
+    "semana": "Semana 1",
     "ingredients": [
       "Pollo - pechuga",
       "Zumo de naranja natural",
@@ -542,6 +581,7 @@
     "id": "potaje-de-alubias-con-verduras",
     "nombre": "Potaje de alubias con verduras",
     "categoria": "almuerzo-principal",
+    "semana": "Semana 1",
     "ingredients": [
       "Judías secas",
       "Pimiento",
@@ -556,6 +596,7 @@
     "id": "risotto-de-quinoa-y-calabaza-nutrimente",
     "nombre": "Risotto de quinoa y calabaza Nutrimente",
     "categoria": "almuerzo-principal",
+    "semana": "Semana 1",
     "ingredients": [
       "Calabaza amarilla",
       "Vino blanco",
@@ -570,6 +611,7 @@
     "id": "salmon-a-la-plancha",
     "nombre": "Salmón a la plancha",
     "categoria": "almuerzo-principal",
+    "semana": "Semana 1",
     "ingredients": [
       "Salmón"
     ],
@@ -579,6 +621,7 @@
     "id": "salmon-en-lecho-de-espinacas-y-salsa-de-yogur",
     "nombre": "Salmón en lecho de espinacas y salsa de yogur",
     "categoria": "almuerzo-principal",
+    "semana": "Semana 1",
     "ingredients": [
       "Salmón",
       "Queso Batido 0%",
@@ -593,6 +636,7 @@
     "id": "salteado-de-berenjenas-con-pollo-nutrimente",
     "nombre": "Salteado de berenjenas con pollo Nutrimente",
     "categoria": "almuerzo-principal",
+    "semana": "Semana 1",
     "ingredients": [
       "Berenjenas",
       "Pollo - pechuga",
@@ -609,6 +653,7 @@
     "id": "salto-de-verduras-con-salmon",
     "nombre": "Salto de verduras con salmón",
     "categoria": "almuerzo-principal",
+    "semana": "Semana 1",
     "ingredients": [
       "Salmón",
       "Brócoli",
@@ -622,6 +667,7 @@
     "id": "wok-de-verduras-y-pollo-con-fideos-chinos",
     "nombre": "Wok de verduras y pollo con fideos chinos",
     "categoria": "almuerzo-principal",
+    "semana": "Semana 1",
     "ingredients": [
       "Pollo - pechuga",
       "Pimiento",
@@ -641,6 +687,7 @@
     "id": "alino-de-pimientos-asados-con-cebolla",
     "nombre": "Aliño de pimientos asados con cebolla",
     "categoria": "cena-entrante",
+    "semana": "Semana 1",
     "ingredients": [
       "Pimiento",
       "Cebollas",
@@ -653,6 +700,7 @@
     "id": "consome",
     "nombre": "Consomé",
     "categoria": "cena-entrante",
+    "semana": "Semana 1",
     "ingredients": [
       "Caldo de carne brick"
     ],
@@ -662,6 +710,7 @@
     "id": "crema-de-calabacin",
     "nombre": "Crema de calabacín",
     "categoria": "cena-entrante",
+    "semana": "Semana 1",
     "ingredients": [
       "Calabacín",
       "Leche desnatada",
@@ -676,6 +725,7 @@
     "id": "crema-de-verduras",
     "nombre": "Crema de verduras",
     "categoria": "cena-entrante",
+    "semana": "Semana 1",
     "ingredients": [
       "Patatas",
       "Zanahorias",
@@ -690,6 +740,7 @@
     "id": "ensalada-de-canonigos-y-nueces",
     "nombre": "Ensalada de canónigos y nueces",
     "categoria": "cena-entrante",
+    "semana": "Semana 1",
     "ingredients": [
       "Mezclum lechugas",
       "Nueces sin cáscara",
@@ -703,6 +754,7 @@
     "id": "ensalada-mixta-con-atun",
     "nombre": "Ensalada mixta con atún",
     "categoria": "cena-entrante",
+    "semana": "Semana 1",
     "ingredients": [
       "Tomate",
       "Mezclum lechugas",
@@ -717,6 +769,7 @@
     "id": "judias-verdes-con-huevo-duro",
     "nombre": "Judías verdes con huevo duro",
     "categoria": "cena-entrante",
+    "semana": "Semana 1",
     "ingredients": [
       "Judías verdes",
       "Huevo duro",
@@ -728,6 +781,7 @@
     "id": "pate-de-berenjena-y-tomate-seco-nutrimente",
     "nombre": "Paté de berenjena y tomate seco Nutrimente",
     "categoria": "cena-entrante",
+    "semana": "Semana 1",
     "ingredients": [
       "Berenjenas",
       "Tomate seco",
@@ -742,6 +796,7 @@
     "id": "pure-de-brocoli-y-zanahoria",
     "nombre": "Puré de brócoli y zanahoria",
     "categoria": "cena-entrante",
+    "semana": "Semana 1",
     "ingredients": [
       "Brócoli",
       "Zanahorias",
@@ -756,6 +811,7 @@
     "id": "pure-de-calabaza",
     "nombre": "Puré de calabaza",
     "categoria": "cena-entrante",
+    "semana": "Semana 1",
     "ingredients": [
       "Calabaza amarilla",
       "Cebollas",
@@ -768,6 +824,7 @@
     "id": "pure-de-verduras",
     "nombre": "Puré de verduras",
     "categoria": "cena-entrante",
+    "semana": "Semana 1",
     "ingredients": [
       "Calabacín",
       "Zanahorias",
@@ -781,6 +838,7 @@
     "id": "sopa-con-fideos-casera",
     "nombre": "Sopa con fideos casera",
     "categoria": "cena-entrante",
+    "semana": "Semana 1",
     "ingredients": [
       "Puerros",
       "Zanahorias",
@@ -795,6 +853,7 @@
     "id": "atun-al-natural",
     "nombre": "Atún al natural",
     "categoria": "cena-principal",
+    "semana": "Semana 1",
     "ingredients": [
       "Atún al natural"
     ],
@@ -804,6 +863,7 @@
     "id": "ceviche-de-atun",
     "nombre": "Ceviche de atún",
     "categoria": "cena-principal",
+    "semana": "Semana 1",
     "ingredients": [
       "Atún fresco",
       "Cebollas",
@@ -820,6 +880,7 @@
     "id": "corazones-de-alcachofas-con-salmon-y-queso",
     "nombre": "Corazones de alcachofas con salmón y queso",
     "categoria": "cena-principal",
+    "semana": "Semana 1",
     "ingredients": [
       "Alcachofas en lata",
       "Queso de Burgos",
@@ -831,6 +892,7 @@
     "id": "crema-de-calabaza-con-setas-al-ajillo-y-huevo-poche",
     "nombre": "Crema de calabaza con setas al ajillo y huevo poché",
     "categoria": "cena-principal",
+    "semana": "Semana 1",
     "ingredients": [
       "Calabaza amarilla",
       "Patatas",
@@ -848,6 +910,7 @@
     "id": "ensalada-california",
     "nombre": "Ensalada california",
     "categoria": "cena-principal",
+    "semana": "Semana 1",
     "ingredients": [
       "Mezclum lechugas",
       "Tomate",
@@ -864,6 +927,7 @@
     "id": "ensalada-de-niza",
     "nombre": "Ensalada de Niza",
     "categoria": "cena-principal",
+    "semana": "Semana 1",
     "ingredients": [
       "Atún al natural",
       "Huevo duro",
@@ -881,6 +945,7 @@
     "id": "ensalada-de-calabacin-y-salmon",
     "nombre": "Ensalada de calabacín y salmón",
     "categoria": "cena-principal",
+    "semana": "Semana 1",
     "ingredients": [
       "Calabacín",
       "Queso de Burgos",
@@ -896,6 +961,7 @@
     "id": "ensalada-de-calabaza-y-vinagreta-de-tomillo",
     "nombre": "Ensalada de calabaza y vinagreta de tomillo",
     "categoria": "cena-principal",
+    "semana": "Semana 1",
     "ingredients": [
       "Calabaza",
       "Rúcula",
@@ -913,6 +979,7 @@
     "id": "ensalada-de-espinacas-con-gulas",
     "nombre": "Ensalada de espinacas con gulas",
     "categoria": "cena-principal",
+    "semana": "Semana 1",
     "ingredients": [
       "Gulas",
       "Espinacas hojas",
@@ -925,6 +992,7 @@
     "id": "ensalada-tropical",
     "nombre": "Ensalada tropical",
     "categoria": "cena-principal",
+    "semana": "Semana 1",
     "ingredients": [
       "Piña natural",
       "Manzanas",
@@ -939,6 +1007,7 @@
     "id": "gulas-al-ajillo",
     "nombre": "Gulas al ajillo",
     "categoria": "cena-principal",
+    "semana": "Semana 1",
     "ingredients": [
       "Gulas",
       "Aceite de oliva",
@@ -950,6 +1019,7 @@
     "id": "gulas-salteadas-con-setas",
     "nombre": "Gulas salteadas con setas",
     "categoria": "cena-principal",
+    "semana": "Semana 1",
     "ingredients": [
       "Setas",
       "Gulas",
@@ -962,6 +1032,7 @@
     "id": "hamburguesa-casera-con-cebolla-y-champinones",
     "nombre": "Hamburguesa casera con cebolla y champiñones",
     "categoria": "cena-principal",
+    "semana": "Semana 1",
     "ingredients": [
       "Carne picada vacuno",
       "Champiñones",
@@ -974,6 +1045,7 @@
     "id": "hamburguesa-de-espinaca-y-salmon-sf",
     "nombre": "Hamburguesa de espinaca y salmón (SF)",
     "categoria": "cena-principal",
+    "semana": "Semana 1",
     "ingredients": [
       "Salmón",
       "Espinacas congeladas",
@@ -986,6 +1058,7 @@
     "id": "hamburguesa-ternera-plancha",
     "nombre": "Hamburguesa ternera plancha",
     "categoria": "cena-principal",
+    "semana": "Semana 1",
     "ingredients": [
       "Carne picada vacuno",
       "Aceite de oliva"
@@ -996,6 +1069,7 @@
     "id": "mejillones-hervidos-a-la-marinera",
     "nombre": "Mejillones hervidos a la marinera",
     "categoria": "cena-principal",
+    "semana": "Semana 1",
     "ingredients": [
       "Mejillones",
       "Tomate triturado en conserva",
@@ -1010,6 +1084,7 @@
     "id": "pastel-de-berenjena-nutrimente",
     "nombre": "Pastel de berenjena Nutrimente",
     "categoria": "cena-principal",
+    "semana": "Semana 1",
     "ingredients": [
       "Berenjenas",
       "Tomate triturado en conserva",
@@ -1025,6 +1100,7 @@
     "id": "pavo-y-pina-a-la-plancha-nutrimente",
     "nombre": "Pavo y piña a la plancha Nutrimente",
     "categoria": "cena-principal",
+    "semana": "Semana 1",
     "ingredients": [
       "Piña natural",
       "Pavo - pechuga",
@@ -1036,6 +1112,7 @@
     "id": "picoteo-embutido-y-queso-nutrimente",
     "nombre": "Picoteo embutido y queso Nutrimente",
     "categoria": "cena-principal",
+    "semana": "Semana 1",
     "ingredients": [
       "Queso de Burgos",
       "Pechuga de pavo embutido"
@@ -1046,6 +1123,7 @@
     "id": "pulpo-con-pimenton",
     "nombre": "Pulpo con pimentón",
     "categoria": "cena-principal",
+    "semana": "Semana 1",
     "ingredients": [
       "Pulpo",
       "Aceite de oliva",
@@ -1057,6 +1135,7 @@
     "id": "revuelto-de-ajetes-espinacas-y-gambas",
     "nombre": "Revuelto de ajetes, espinacas y gambas",
     "categoria": "cena-principal",
+    "semana": "Semana 1",
     "ingredients": [
       "Espinacas congeladas",
       "Ajetes",
@@ -1070,6 +1149,7 @@
     "id": "revuelto-de-ajetes-trigueros-y-piquillo",
     "nombre": "Revuelto de ajetes, trigueros y piquillo",
     "categoria": "cena-principal",
+    "semana": "Semana 1",
     "ingredients": [
       "Huevo",
       "Ajetes",
@@ -1084,6 +1164,7 @@
     "id": "revuelto-de-setas",
     "nombre": "Revuelto de setas",
     "categoria": "cena-principal",
+    "semana": "Semana 1",
     "ingredients": [
       "Setas",
       "Huevo",
@@ -1098,6 +1179,7 @@
     "id": "roulades-de-espinacas-con-queso-y-pavo",
     "nombre": "Roulades de espinacas con queso y pavo",
     "categoria": "cena-principal",
+    "semana": "Semana 1",
     "ingredients": [
       "Espinacas congeladas",
       "Huevo",
@@ -1110,6 +1192,7 @@
     "id": "tortilla-de-berenjena-queso-y-pimiento",
     "nombre": "Tortilla de berenjena, queso y pimiento",
     "categoria": "cena-principal",
+    "semana": "Semana 1",
     "ingredients": [
       "Huevo",
       "Berenjenas",
@@ -1124,6 +1207,7 @@
     "id": "tortilla-de-calabacin",
     "nombre": "Tortilla de calabacín",
     "categoria": "cena-principal",
+    "semana": "Semana 1",
     "ingredients": [
       "Huevo",
       "Calabacín",
@@ -1135,6 +1219,7 @@
     "id": "tortilla-de-esparragos",
     "nombre": "Tortilla de espárragos",
     "categoria": "cena-principal",
+    "semana": "Semana 1",
     "ingredients": [
       "Huevo",
       "Espárragos trigueros",
@@ -1146,6 +1231,7 @@
     "id": "tortilla-de-patata-ligerita-nutrimente",
     "nombre": "Tortilla de patata ligerita Nutrimente",
     "categoria": "cena-principal",
+    "semana": "Semana 1",
     "ingredients": [
       "Patatas",
       "Huevo",
@@ -1158,6 +1244,7 @@
     "id": "tortilla-francesa",
     "nombre": "Tortilla francesa",
     "categoria": "cena-principal",
+    "semana": "Semana 1",
     "ingredients": [
       "Huevo",
       "Aceite de oliva"
@@ -1168,6 +1255,7 @@
     "id": "tosta-de-aguacate-tomate-y-sesamo",
     "nombre": "Tosta de aguacate, tomate y sésamo",
     "categoria": "cena-principal",
+    "semana": "Semana 1",
     "ingredients": [
       "Aguacate",
       "Tomate",
@@ -1180,6 +1268,7 @@
     "id": "tosta-de-gulas-y-rucula",
     "nombre": "Tosta de gulas y rúcula",
     "categoria": "cena-principal",
+    "semana": "Semana 1",
     "ingredients": [
       "Gulas",
       "Pan Integral",
@@ -1192,6 +1281,7 @@
     "id": "tosta-de-sardinas-con-tomate-en-rodajas",
     "nombre": "Tosta de sardinas con tomate en rodajas",
     "categoria": "cena-principal",
+    "semana": "Semana 1",
     "ingredients": [
       "Sardinas en aceite",
       "Pan Integral",
@@ -1203,6 +1293,7 @@
     "id": "trucha-rellena-de-setas",
     "nombre": "Trucha rellena de setas",
     "categoria": "cena-principal",
+    "semana": "Semana 1",
     "ingredients": [
       "Trucha",
       "Setas",
@@ -1216,6 +1307,7 @@
     "id": "libre-segun-indicaciones-en-consulta",
     "nombre": "Libre (según indicaciones en consulta)",
     "categoria": "almuerzo-libre",
+    "semana": "Semana 1",
     "ingredients": [],
     "elaboracion": "Esta comida es libre, teniendo en cuenta las recomendaciones nutricionales acordadas en consulta. Libre no quiere decir \"todo vale\", sino libertad para elegir dentro de las opciones aprendidas en consulta."
   },
@@ -1223,6 +1315,7 @@
     "id": "libre-segun-indicaciones-en-consulta-2",
     "nombre": "Libre (según indicaciones en consulta)",
     "categoria": "cena-libre",
+    "semana": "Semana 1",
     "ingredients": [],
     "elaboracion": "Esta comida es libre, teniendo en cuenta las recomendaciones nutricionales acordadas en consulta. Libre no quiere decir \"todo vale\", sino libertad para elegir dentro de las opciones aprendidas en consulta."
   }
